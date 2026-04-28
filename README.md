@@ -3,18 +3,17 @@
 This project generates an Excel file for bulk listing items on Facebook Marketplace by analyzing product images and producing listing metadata.
 
 ## Author Notes 
-    Facebook does not allow you to automate the listing posting however
-    they do allow you to upload text through an xlxs file on the desktop 
-    version. 
-    I do realize that a lot of the descriptions will be wrong, However, it'll be small details that will be fixed. 
-    Facebook also hates it when you try to automate anything, You'll have to upload the images separately. This is mostly just for title and description.
+Facebook does not allow you to automatically post listings, they have alot of prevention against botting. 
+They do allow you to upload text through an xlsx file on the desktop version.
 
-    This project has a very small amount of use cases, However I thought I'd share it. 
-    It saves me time because the descriptions are written and I don't have to write every description, title or category.
-    
-    (April 2026):The categories needs more work, will be updating it so it is better at guessing the categories. 
+I do realize that a lot of the descriptions will be inaccurate, However, this is just supposed to fix the main issue of getting a general amount of listings set up to be posted.
+A majority of the generation is actually pretty good it just needs to be adjusted before posting, which facebook helps you do. 
+You'll have to upload the images separately. This is mostly just for title and description.
 
-    - I will say that the pricing is not to be trusted. No model can accurately price out items without more information or ebay sold listing API. 
+This project has a very small amount of use cases, However I thought I'd share it. 
+
+(April 2026):The categories needs more work, will be updating it so it is better at guessing the categories. 
+The pricing is not to be trusted. No model can accurately price out items without more information or ebay sold listing API. 
 
 
 ## What it does
