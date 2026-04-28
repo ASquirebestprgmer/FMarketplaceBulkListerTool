@@ -1,8 +1,7 @@
 import os
 import json
 import pandas as pd
-import ollama  # Switched from google.genai
-from thefuzz import process
+import ollama  
 
 # Facebook's Strict Variables
 ALLOWED_CONDITIONS = ["New", "Used - Like New", "Used - Good", "Used - Fair"]
@@ -11,25 +10,63 @@ def load_categories(filepath="categories.txt"):
     """
     Reads the categories from a text file, one per line.
     """
+    lines = []
+    cattree= {}
     try:
         with open(filepath, 'r', encoding='utf-8') as file:
-            return [line.strip() for line in file if line.strip()]
+            lines = [line.strip() for line in file if line.strip()]
     except FileNotFoundError:
         print(f"{filepath} not found. Using minimal fallback.")
         return ["Clothing, Shoes & Accessories > Clothing"]
 
-# Load these once at the start to save time
-ALL_CATEGORIES = load_categories("categories.txt")
 
-def find_exact_facebook_category(ai_guess):
-    """
-    Uses fuzzy matching to find the closest valid Facebook category.
-    """
-    best_match, confidence = process.extractOne(ai_guess, ALL_CATEGORIES)
-    print(f"   ↳ Matched '{ai_guess}' -> '{best_match}' ({confidence}% confidence)")
-    return best_match
+    for line in lines:
+        parts = line.split('//')
+        level = cattree
+        for i in range(len(parts)):
+            category = parts[i]
+            if category not in level:
+                 level[category] = {}
+            level = level[category] 
 
-def analyze_and_generate_listing(image_path):
+    #print(json.dumps(cattree, indent=4))
+    return cattree    
+
+def search_category_tree(tree, final, image_path):
+    """
+    Recursively searches the category tree for a match to the guess.
+    """
+    
+    if not tree:
+        print(final)
+        return final
+    
+    try:
+        # Prompting with current keys: ['Bird Supplies', 'Cat Supplies', etc.]
+        keys_list = list(tree.keys())
+        prompt = f"Which OF THESE CATEGORIES fits this item best: {keys_list}. Respond with ONE CATEGORY from the list."
+        
+        response = ollama.chat(
+            model='qwen2.5vl', 
+            messages=[{'role': 'user', 'content': prompt, 'images': [image_path]}]
+        )
+        
+        # Clean the response (LLMs sometimes add extra whitespace or dots)
+        selection = response['message']['content'].strip()
+
+        if selection in tree:
+            final.append(selection)
+            # Recursive call into the next level
+            return search_category_tree(tree[selection], final, image_path)
+        else:
+            print(f"AI returned '{selection}', which isn't in {keys_list}")
+            return final # Or handle 'None' logic here
+            
+    except Exception as e:
+        print(f"Error: {e}")
+        return final
+
+def generate_listing(image_path):
     """
     Sends the image to the local Qwen2.5-VL model via Ollama.
     """
@@ -43,34 +80,11 @@ def analyze_and_generate_listing(image_path):
     Constraints:
     YOU SHOULD ONLY HAVE 5 OUTPUT FIELDS IN YOUR JSON RESPONSE: TITLE, PRICE, CONDITION, DESCRIPTION, CATEGORY_GUESS.
     1. TITLE: Max 150 characters. Try to Include brand. Avoid clickbait. Make it short maybe 3-5 words.
-    2. PRICE: Estimate fair market value. Try to make your estimate between 30-120$ MAX. If you think it's worth more than 120$ then just put 120$. If you think it's worth less than 30$ then just put 30$. Always include 'OBO' after the price.
+    2. PRICE: ALWAYS A WHOLE NUMBER NO TEXT Estimate fair market value. Try to make your estimate between 30-120$ MAX. If you think it's worth more than 120$ then just put 120$. If you think it's worth less than 30$ then just put 30$. Always include 'OBO' after the price.
     3. CONDITION: Must be EXACTLY: {', '.join(ALLOWED_CONDITIONS)}. 
     4. DESCRIPTION: Max 5000 chars. Include details, brand, model, flaws. 
-       ALWAYS INCLUDE: 'The price you have listed' OBO and 'PICKUP PREFERRED WILL DELIVER AT FULL PRICE PLUS A FEE'.
-    5. CATEGORY_GUESS: Try to match the item to a possible CATEGORY by making 10 keywords DO NOT TRY TO MATCH THE FORMATING OF ANY OF THE REAL CATEGORIES.
-    JUST GENERATE 10 KEYWORDS THAT BEST DESCRIBE THE ITEM AND THEN GUESS THE BEST FITTING CATEGORY BASED ON THOSE KEYWORDS.
-    THESE ARE ALL EXAMPLES OF POSSIBLE CATIGORIES, remeber do not try to match the formatting of these categories, just generate keywords and then guess the best fitting category based on those keywords:
-    Tools & Home Improvement
-    Sporting Goods//Exercise & Fitness
-    Toys & Games
-    Video Games & Consoles//Video Game Accessories
-    Sporting Goods//Sports Equipment
-    Musical Instruments
-    Musical Instruments//Drums & Percussion Instruments
-    Musical Instruments//General Music Accessories
-    Musical Instruments//Guitars & Basses
-    Musical Instruments//Pianos & Keyboard Instruments
-    Jewelry & Watches//Jewelry
-    Jewelry & Watches//Watches & Accessories
-    Electronics//Video Games & Consoles
-    Electronics//Home Audio & Video
-    Clothing, Shoes & Accessories
-    Clothing, Shoes & Accessories//Women's Handbags//Backpacks
-    Books, Movies & Music
-    Antiques & Collectibles
-    Electronics//Cameras & Accessories
-    Electronics//Computers, Laptops & Tablets
-
+       ALWAYS INCLUDE: 'The price you have listed' OBO ONLY IN THE DESCRIPTION and 'PICKUP PREFERRED WILL DELIVER AT FULL PRICE PLUS A FEE'.
+    5. CATEGORY_GUESS: Based on the image, make your best guess at the category.
         
     Return ONLY a valid JSON object with keys: "TITLE", "PRICE", "CONDITION", "DESCRIPTION", "CATEGORY_GUESS".
     """
@@ -102,15 +116,19 @@ def analyze_and_generate_listing(image_path):
         else:
             guess_string = str(guess_raw)
 
-        exact_category = find_exact_facebook_category(guess_string)
+        tree = load_categories("categories.txt")
+        final = []
+        final = search_category_tree(tree, final,image_path)
+        print(f"Exact category found: {final}")
+        final_category = "//".join(final) 
         
-
+        print(f"Final category for {filename}: {final_category}")
         final_listing = {
             "TITLE": ai_output.get("TITLE"),
             "PRICE": ai_output.get("PRICE"),
             "CONDITION": ai_output.get("CONDITION"),
             "DESCRIPTION": ai_output.get("DESCRIPTION"),
-            "CATEGORY": exact_category 
+            "CATEGORY": final_category 
         }
 
         return final_listing
@@ -129,14 +147,14 @@ def create_bulk_upload_file(processed_items, output_filename="Generated_Listings
     print(f"\nSaved {len(processed_items)} items to '{output_filename}'")
 
 def main():
-    raw_path = input("Please paste the full path to your photo folder: ").strip()
+
     
-    image_folder = raw_path.replace('"', '').replace("'", "")
+    image_folder = input("Please paste the full path to your photo folder: ").strip() # "G:\0-PHOTOS\149___04\stuff"
 
     if not os.path.exists(image_folder):
         print(f"The folder '{image_folder}' does not exist.")
         return
-        
+
     target_files = [f for f in os.listdir(image_folder) if f.lower().endswith(('.jpg', '.png', '.jpeg'))]
     
     if not target_files:
@@ -148,7 +166,7 @@ def main():
     for image_file in target_files:
         image_path = os.path.join(image_folder, image_file) 
         try:
-            listing_data = analyze_and_generate_listing(image_path)
+            listing_data = generate_listing(image_path)
             ready_for_excel.append(listing_data)
             print(f"Generated: {listing_data.get('TITLE')} - ${listing_data.get('PRICE')}")
         except Exception as e:
