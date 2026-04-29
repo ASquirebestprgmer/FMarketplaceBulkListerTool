@@ -1,0 +1,2530 @@
+{
+    "Antiques & Collectibles": {
+        "Antique & Collectible Appliances": {
+            "Fans & Air Conditioners": {},
+            "Heaters": {},
+            "Stoves": {}
+        },
+        "Antique & Collectible Electronics": {
+            "Cameras": {},
+            "Phonographs & Gramophones": {},
+            "Radios": {},
+            "Slide & Film Projectors": {},
+            "Telegraphs & Telephones": {},
+            "Televisions": {}
+        },
+        "Antique & Collectible Furniture": {
+            "Bookcases": {},
+            "Cabinets & Hutches": {},
+            "Chairs": {},
+            "Chests & Trunks": {},
+            "Desks": {},
+            "Dressers & Chests of Drawers": {},
+            "Headboards & Footboards": {},
+            "Mirrors": {},
+            "Sideboards & Buffets": {},
+            "Sofas & Chaises": {},
+            "Tables": {}
+        },
+        "Antique & Collectible Home Goods": {
+            "Chamber Pots & Wash Basins": {},
+            "Sewing Machines": {},
+            "Wash Boards": {}
+        },
+        "Antique & Collectible Stamps": {},
+        "Antique & Collectible Toys": {},
+        "Paper Ephemera": {
+            "Advertising": {},
+            "Brochures": {},
+            "Letters & Correspondences": {},
+            "Maps": {},
+            "Menus": {},
+            "Postcards": {}
+        },
+        "Sports Memorabilia": {
+            "Sports Programs": {},
+            "Sports Trading Cards": {}
+        }
+    },
+    "Arts & Crafts": {
+        "Art Supplies": {
+            "Art Organization & Storage": {},
+            "Art Paper, Pads & Sketchbooks": {},
+            "Canvas & Art Boards": {},
+            "Drawing Supplies": {
+                "Adult Coloring Books": {},
+                "Art Projectors & Light Boxes": {},
+                "Artists' Erasers": {},
+                "Drawing & Lettering Aids": {},
+                "Drawing Instruments": {
+                    "Art Crayons": {},
+                    "Art Pencils": {},
+                    "Art Pens & Markers": {},
+                    "Charcoal & Graphite": {},
+                    "Pastels": {}
+                }
+            },
+            "Easels & Work Tables": {},
+            "Painting Supplies": {
+                "Paint": {},
+                "Paint Brushes": {},
+                "Paint Mediums & Varnishes": {},
+                "Paint-By-Number Kits": {},
+                "Painting Tools & Accessories": {}
+            },
+            "Sculpting, Molding & Ceramics": {
+                "Ceramic & Pottery Clays": {},
+                "Ceramic Glazes": {},
+                "Ceramic, Pottery & Modeling Tools": {},
+                "Clay Molds": {},
+                "Kilns": {},
+                "Modeling Clays & Doughs": {},
+                "Pottery Wheels": {},
+                "Pre-Made Molds": {},
+                "Ready-to-Paint Ceramics": {}
+            }
+        },
+        "Beading & Jewelry Making": {
+            "Beading & Jewelry Findings": {},
+            "Beading & Jewelry Making Kits": {},
+            "Beading & Jewelry Making Tools": {},
+            "Beading & Jewelry Patterns": {},
+            "Beads": {},
+            "Cabochons": {},
+            "Jewelry Making Metal Sheet & Wire": {},
+            "Rhinestones & Flatbacks": {}
+        },
+        "Craft Supplies": {
+            "Candle & Soap Making Supplies": {},
+            "Framing & Matting Supplies": {},
+            "Glass & Mosaic Supplies": {},
+            "Multi-Purpose Craft Supplies": {
+                "Craft Adhesives": {
+                    "Craft Glues & Pastes": {},
+                    "Craft Tape": {},
+                    "Glue Guns & Sticks": {}
+                },
+                "Craft Materials": {
+                    "Craft Cork": {},
+                    "Craft Feathers": {},
+                    "Craft Felt": {},
+                    "Craft Foam": {},
+                    "Craft Glitter": {},
+                    "Craft Ribbons": {},
+                    "Craft Sequins": {},
+                    "Craft Shells": {},
+                    "Craft Stickers": {}
+                },
+                "Craft Paint": {}
+            },
+            "Scrapbooking & Paper Crafts": {
+                "Craft Paper": {},
+                "Decorative Paper Punches": {},
+                "Decorative Scissors & Paper Edgers": {},
+                "Scrapbooking Albums & Refills": {},
+                "Scrapbooking Embellishments": {},
+                "Scrapbooking Kits": {},
+                "Scrapbooking Stencils & Templates": {},
+                "Stamps & Ink Pads": {}
+            },
+            "Wood Crafting Supplies": {}
+        },
+        "Needlecrafts & Yarn": {
+            "Crocheting & Knitting": {
+                "Crochet Hooks": {},
+                "Crochet Patterns": {},
+                "Crochet Thread": {},
+                "Knitting & Crochet Notions": {},
+                "Knitting Needles": {},
+                "Knitting Patterns": {}
+            },
+            "Embroidery & Cross Stitch": {
+                "Embroidery Cloth & Canvas": {},
+                "Embroidery Floss": {},
+                "Embroidery Machines": {},
+                "Embroidery Notions": {},
+                "Embroidery Patterns": {}
+            },
+            "Macram\u00e9 Supplies": {},
+            "Spinning & Felting": {
+                "Felt Appliques": {},
+                "Felting Kits": {},
+                "Felting Mats": {},
+                "Felting Needles & Pens": {},
+                "Felting Patterns & Templates": {},
+                "Needle Felting Machines": {},
+                "Needle Felting Molds": {},
+                "Roving Wool & Fibers": {},
+                "Spindles": {},
+                "Spinning Wheels": {},
+                "Wool Carders": {}
+            },
+            "Yarn": {}
+        },
+        "Sewing": {
+            "Fabric": {},
+            "Quilting Supplies": {
+                "Quilting Frames": {},
+                "Quilting Hoops": {},
+                "Quilting Kits": {},
+                "Quilting Patterns & Templates": {}
+            },
+            "Sewing Kits": {},
+            "Sewing Machines & Sergers": {},
+            "Sewing Notions": {
+                "Bobbins": {},
+                "Fabric Scissors & Shears": {},
+                "Fasteners & Closures": {},
+                "Marking & Measuring Tools": {},
+                "Pincushions": {},
+                "Seam Rippers": {},
+                "Sewing Foams & Fibers": {},
+                "Sewing Interfacing": {},
+                "Sewing Needles": {},
+                "Sewing Pins": {},
+                "Sewing Thread": {},
+                "Thimbles": {},
+                "Threaders": {},
+                "Trim & Embellishments": {}
+            },
+            "Sewing Patterns & Templates": {}
+        }
+    },
+    "Auto Parts & Accessories": {
+        "Automotive Tools": {},
+        "Boat Parts & Accessories": {},
+        "Car Parts & Accessories": {},
+        "Motorcycle Parts & Accessories": {},
+        "Powersports Parts & Accessories": {},
+        "RV & Camper Parts & Accessories": {},
+        "Trailer Parts & Accessories": {}
+    },
+    "Baby Products": {
+        "Activity Centers & Entertainers": {
+            "Activity Centers": {},
+            "Baby Swings": {},
+            "Bouncers & Vibrating Chairs": {},
+            "Jumpers & Exercisers": {},
+            "Play Mats & Gyms": {},
+            "Play Tents & Shades": {},
+            "Playpens": {},
+            "Walkers": {}
+        },
+        "Baby Bathing": {
+            "Baby Scales": {},
+            "Bath Tub Seats & Floats": {},
+            "Bath Tubs": {},
+            "Shampoo & Soap": {},
+            "Skin Care": {},
+            "Towels & Washcloths": {}
+        },
+        "Baby Carriers": {
+            "Backpacks": {},
+            "Hip Seats": {},
+            "Slings": {},
+            "Soft Structured Carriers": {},
+            "Wraps": {}
+        },
+        "Baby Clothing & Shoes": {
+            "Boys' Baby Clothing & Shoes": {
+                "Bodysuits": {},
+                "Bottoms": {},
+                "Outerwear": {},
+                "Outfits & Sets": {},
+                "Shoes": {},
+                "Sleepwear": {},
+                "Socks": {},
+                "Suits": {},
+                "Sweaters": {},
+                "Swimwear": {},
+                "Tops": {}
+            },
+            "Girls' Baby Clothing & Shoes": {
+                "Bodysuits": {},
+                "Bottoms": {},
+                "Dresses": {},
+                "Outerwear": {},
+                "Outfits": {},
+                "Shoes": {},
+                "Sleepwear": {},
+                "Socks": {},
+                "Sweaters": {},
+                "Swimwear": {},
+                "Tops": {}
+            }
+        },
+        "Baby Health": {
+            "Health & Grooming Kits": {},
+            "Nasal Aspirators": {},
+            "Pacifier Clips & Holders": {},
+            "Pacifiers & Teethers": {}
+        },
+        "Baby Safety": {
+            "Baby Monitors": {},
+            "Baby Proofing Supplies": {
+                "Corner & Edge Cushions": {},
+                "Locks & Latches": {},
+                "Outlet Covers": {},
+                "Stove Guards": {}
+            },
+            "Bed Rails": {},
+            "Car Decals": {},
+            "Safety Gates": {},
+            "Safety Harnesses & Leashes": {}
+        },
+        "Baby Toys": {
+            "Alphabet Toys": {},
+            "Baby Books": {},
+            "Baby Soothers": {},
+            "Bath Toys": {},
+            "Blocks, Sorting & Stacking Toys": {},
+            "Plush Toys": {},
+            "Push & Pull Toys": {},
+            "Rattles": {}
+        },
+        "Car Seats & Accessories": {
+            "Booster Car Seats": {},
+            "Convertible Car Seats": {},
+            "Head Supports": {},
+            "Infant Car Seats": {}
+        },
+        "Diapering": {
+            "Baby Wipes": {},
+            "Changing Pads": {},
+            "Diaper Bags": {},
+            "Diaper Covers": {},
+            "Diaper Pails": {},
+            "Diapers": {
+                "Cloth Diapers": {},
+                "Disposable Diapers": {},
+                "Swim Diapers": {}
+            },
+            "Wipe Warmers": {}
+        },
+        "Feeding": {
+            "Baby Food": {},
+            "Bibs & Burp Cloths": {},
+            "Booster Chairs": {},
+            "Bottle Feeding Supplies": {
+                "Baby Bottles": {},
+                "Bottle Brushes": {},
+                "Bottle Drying Racks": {},
+                "Bottle Nipples": {},
+                "Bottle Sterilizers & Cleaning Supplies": {},
+                "Bottle Warmers": {}
+            },
+            "Breastfeeding & Nursing": {
+                "Nursing Covers": {},
+                "Nursing Pads & Shields": {},
+                "Nursing Pillows & Pillow Covers": {}
+            },
+            "High Chairs": {},
+            "Utensils": {}
+        },
+        "Nursery Bedding": {
+            "Baby Blankets & Throws": {},
+            "Crib Sheets": {},
+            "Duvet Covers & Inserts": {},
+            "Mattress Pads & Covers": {},
+            "Quilts & Coverlets": {}
+        },
+        "Nursery Furniture": {
+            "Baby Dressers": {},
+            "Bassinets & Cradles": {},
+            "Bedside Sleepers": {},
+            "Chairs": {},
+            "Changing Tables": {},
+            "Crib Mattresses": {},
+            "Cribs": {},
+            "Nursery Furniture Sets": {}
+        },
+        "Potty Training": {
+            "Potty Seats": {},
+            "Potty Training Pants": {},
+            "Step Stools": {}
+        },
+        "Strollers & Accessories": {
+            "Stroller Accessories": {
+                "Bassinets": {},
+                "Covers & Canopies": {},
+                "Organizers & Nets": {},
+                "Seat Liners": {}
+            },
+            "Strollers": {}
+        }
+    },
+    "Bags & Luggage": {
+        "Backpacks": {},
+        "Belt Bags & Waist Packs": {},
+        "Briefcases & Laptop Bags": {},
+        "Handbags": {
+            "Clutches": {},
+            "Crossbody Bags": {},
+            "Satchels": {},
+            "Shoulder Bags": {},
+            "Totes": {}
+        },
+        "Luggage & Travel Accessories": {
+            "Luggage Covers": {},
+            "Luggage Racks & Stands": {},
+            "Luggage Straps": {},
+            "Luggage Tags": {},
+            "Packing Organizers": {},
+            "Toiletry Kits": {},
+            "Travel Pouches": {}
+        },
+        "Luggage": {
+            "Carry On Luggage": {},
+            "Checked Luggage": {},
+            "Duffels & Gym Bags": {},
+            "Garment Bags": {},
+            "Luggage Sets": {},
+            "Underseat Luggage": {}
+        }
+    },
+    "Books, Movies & Music": {
+        "Books": {},
+        "Magazines & Catalogs": {},
+        "Movies & TV Shows": {},
+        "Music": {},
+        "Newspapers": {}
+    },
+    "Cell Phones & Accessories": {
+        "Cell Phone Accessories": {
+            "Audio Docks & Speakers": {},
+            "Batteries": {},
+            "Cables & Adapters": {},
+            "Cases, Covers & Skins": {},
+            "Chargers & Cradles": {},
+            "Headsets": {},
+            "Memory Cards": {},
+            "Mounts & Holders": {},
+            "Screen Protectors": {},
+            "Styluses": {}
+        },
+        "Cell Phones": {},
+        "Smart Watch Accessories": {
+            "Chargers & Docking Stations": {},
+            "Screen Protectors": {},
+            "Smart Watch Cases": {},
+            "Watch Bands": {}
+        },
+        "Smart Watches": {}
+    },
+    "Clothing, Shoes & Accessories": {
+        "Baby Clothing & Shoes": {
+            "Boys' Baby Clothing & Shoes": {
+                "Bodysuits": {},
+                "Bottoms": {},
+                "Outerwear": {},
+                "Outfits & Sets": {},
+                "Shoes": {},
+                "Sleepwear": {},
+                "Socks": {},
+                "Suits": {},
+                "Sweaters": {},
+                "Swimwear": {},
+                "Tops": {}
+            },
+            "Girls' Baby Clothing & Shoes": {
+                "Bodysuits": {},
+                "Bottoms": {},
+                "Dresses": {},
+                "Outerwear": {},
+                "Outfits": {},
+                "Shoes": {},
+                "Sleepwear": {},
+                "Socks": {},
+                "Sweaters": {},
+                "Swimwear": {},
+                "Tops": {}
+            }
+        },
+        "Jewelry & Watches": {
+            "Jewelry": {
+                "Anklets": {},
+                "Body Jewelry": {},
+                "Bracelets": {},
+                "Charms & Pendants": {},
+                "Earrings": {},
+                "Engagement Jewelry": {
+                    "Engagement & Wedding Ring Sets": {},
+                    "Engagement Rings": {},
+                    "Wedding & Anniversary Bands": {}
+                },
+                "Jewelry Sets": {},
+                "Lapel Pins & Brooches": {},
+                "Necklaces": {},
+                "Rings": {}
+            },
+            "Watches & Accessories": {
+                "Watch Parts & Accessories": {},
+                "Watches": {
+                    "Kid's Watches": {},
+                    "Men's Watches": {},
+                    "Smart Watches": {},
+                    "Women's Watches": {}
+                }
+            }
+        },
+        "Kids' Clothing & Shoes": {
+            "Boys' Accessories": {
+                "Belts": {},
+                "Gloves & Mittens": {},
+                "Hats": {},
+                "Scarves": {},
+                "Sunglasses": {},
+                "Suspenders": {},
+                "Ties": {},
+                "Wallets": {}
+            },
+            "Boys' Clothing": {
+                "Jeans": {},
+                "Outerwear": {},
+                "Outfits & Sets": {},
+                "Pants": {},
+                "Shorts": {},
+                "Sleepwear": {},
+                "Socks": {},
+                "Suits": {},
+                "Sweaters": {},
+                "Sweatshirts & Hoodies": {},
+                "Swimwear": {},
+                "Tops & T-Shirts": {},
+                "Underwear": {}
+            },
+            "Boys' Shoes": {},
+            "Girls' Accessories": {
+                "Belts": {},
+                "Gloves & Mittens": {},
+                "Handbags": {},
+                "Hats": {},
+                "Scarves & Wraps": {},
+                "Sunglasses": {}
+            },
+            "Girls' Clothing": {
+                "Dresses": {},
+                "Jeans": {},
+                "Jumpsuits & Rompers": {},
+                "Leggings": {},
+                "Outerwear": {},
+                "Outfits & Sets": {},
+                "Pants": {},
+                "Shorts": {},
+                "Skirts": {},
+                "Sleepwear": {},
+                "Socks & Tights": {},
+                "Sweaters": {},
+                "Sweatshirts & Hoodies": {},
+                "Swimwear": {},
+                "Tops & T-Shirts": {},
+                "Underwear": {}
+            },
+            "Girls' Shoes": {}
+        },
+        "Men's Accessories": {
+            "Belts": {},
+            "Gloves & Mittens": {},
+            "Hats": {},
+            "Scarves": {},
+            "Sunglasses": {},
+            "Suspenders": {},
+            "Ties": {},
+            "Wallets": {}
+        },
+        "Men's Clothing": {
+            "Activewear": {},
+            "Blazers & Sport Coats": {},
+            "Casual Shirts": {},
+            "Coats & Jackets": {},
+            "Dress Shirts": {},
+            "Jeans": {},
+            "Pants": {},
+            "Shorts": {},
+            "Sleepwear": {},
+            "Socks": {},
+            "Suits": {},
+            "Sweaters": {},
+            "Sweatshirts & Hoodies": {},
+            "Swimwear": {},
+            "T-Shirts": {},
+            "Underwear": {}
+        },
+        "Men's Shoes": {
+            "Athletic Shoes": {},
+            "Boots": {},
+            "Casual Shoes": {},
+            "Dress Shoes": {},
+            "Fashion Sneakers": {},
+            "Sandals": {},
+            "Slippers": {}
+        },
+        "Women's Accessories": {
+            "Belts": {},
+            "Gloves & Mittens": {},
+            "Hats": {},
+            "Scarves & Wraps": {},
+            "Sunglasses": {}
+        },
+        "Women's Clothing": {
+            "Activewear": {},
+            "Coats & Jackets": {},
+            "Dresses": {},
+            "Jeans": {},
+            "Jumpsuits & Rompers": {},
+            "Leggings": {},
+            "Lingerie & Sleepwear": {
+                "Bras": {},
+                "Shapewear": {},
+                "Sleepwear": {},
+                "Slips": {},
+                "Underwear": {}
+            },
+            "Pants": {},
+            "Shorts": {},
+            "Skirts": {},
+            "Suits & Blazers": {},
+            "Sweaters": {},
+            "Sweatshirts & Hoodies": {},
+            "Swimwear": {},
+            "Tights, Socks & Hosiery": {
+                "Leg Warmers": {},
+                "Pantyhose & Tights": {},
+                "Socks": {},
+                "Stockings & Thigh-Highs": {}
+            },
+            "Tops & T-Shirts": {}
+        },
+        "Women's Handbags": {
+            "Backpacks": {},
+            "Belt Bags & Waist Packs": {},
+            "Briefcases & Laptop Bags": {},
+            "Clutches": {},
+            "Crossbody Bags": {},
+            "Duffel & Weekender Bags": {},
+            "Satchels": {},
+            "Shoulder Bags": {},
+            "Totes": {},
+            "Wallets": {}
+        },
+        "Women's Shoes": {
+            "Athletic Shoes": {},
+            "Boots": {},
+            "Fashion Sneakers": {},
+            "Flats": {},
+            "Heels": {},
+            "Sandals": {},
+            "Slippers": {}
+        }
+    },
+    "Electronics": {
+        "Batteries & Power": {
+            "Batteries": {},
+            "Battery Chargers": {},
+            "Battery Converters": {},
+            "Battery Testers": {},
+            "Surge Protectors & Power Strips": {},
+            "Voltage Converters": {}
+        },
+        "Blank Media": {},
+        "Cameras & Accessories": {
+            "Camera Accessories": {
+                "Batteries": {},
+                "Cables & Adapters": {},
+                "Cases, Bags & Covers": {},
+                "Chargers & Cradles": {},
+                "Memory Cards": {},
+                "Microphones": {},
+                "Remotes & Shutter Releases": {},
+                "Straps & Grips": {},
+                "Viewfinders": {}
+            },
+            "Camera Parts & Accessories": {},
+            "Cameras": {
+                "Camera Drones": {},
+                "Digital Cameras": {},
+                "Disposable Cameras": {},
+                "Film Cameras": {},
+                "Video Cameras": {}
+            },
+            "Flashes & Flash Accessories": {},
+            "Lenses & Filters": {},
+            "Lighting & Studio Accessories": {},
+            "Photo Albums & Storage": {},
+            "Tripods & Supports": {}
+        },
+        "Cell Phones & Accessories": {
+            "Cell Phone Accessories": {
+                "Audio Docks & Speakers": {},
+                "Batteries": {},
+                "Cables & Adapters": {},
+                "Cases, Covers & Skins": {},
+                "Chargers & Cradles": {},
+                "Headsets": {},
+                "Memory Cards": {},
+                "Mounts & Holders": {},
+                "Screen Protectors": {},
+                "Styluses": {}
+            },
+            "Cell Phones": {},
+            "Smart Watch Accessories": {
+                "Chargers & Docking Stations": {},
+                "Screen Protectors": {},
+                "Smart Watch Cases": {},
+                "Watch Bands": {}
+            },
+            "Smart Watches": {}
+        },
+        "Computers, Laptops & Tablets": {
+            "Cables & Power Cords": {},
+            "Computer Components": {
+                "CPUs/Processors": {},
+                "Computer Cases": {},
+                "Fans & Heatsinks": {},
+                "Hard Drives": {},
+                "Memory": {},
+                "Motherboards": {},
+                "Optical Drives": {},
+                "Power Supplies": {},
+                "Sound Cards": {},
+                "Video Cards & Video Devices": {}
+            },
+            "Computer Peripherals & Accessories": {
+                "Headsets": {},
+                "Keyboard Trays": {},
+                "Keyboards & Keypads": {},
+                "Mice, Trackballs & Touchpads": {},
+                "Microphones": {},
+                "Monitor Mounts & Stands": {},
+                "Monitors": {},
+                "Mouse Pads": {},
+                "Screen Protectors": {},
+                "Speakers": {},
+                "Webcams": {}
+            },
+            "Desktop Computers": {},
+            "Laptop Parts & Accessories": {},
+            "Laptops": {},
+            "Single Board Computers": {},
+            "Tablet & eBook Reader Accessories": {
+                "Cables & Adapters": {},
+                "Cases & Covers": {},
+                "Chargers & Docks": {},
+                "Keyboards": {},
+                "Mounts & Holders": {},
+                "Reading Lights": {},
+                "Screen Protectors": {},
+                "Styluses": {}
+            },
+            "Tablets & eBook Readers": {}
+        },
+        "Home Audio & Video": {
+            "Cable Boxes": {},
+            "DVD & Blu-ray Players": {},
+            "DVRs & Hard Drive Recorders": {},
+            "Home Theater Systems": {},
+            "Internet & Media Streamers": {},
+            "Projectors": {},
+            "Radios": {},
+            "Satellite TV Receivers": {},
+            "Speakers & Subwoofers": {},
+            "Stereos & Stereo Components": {},
+            "TVs": {},
+            "Telephones": {}
+        },
+        "Home Security & Automation": {
+            "Home Surveillance": {
+                "Doorbell Cameras": {},
+                "Intercoms": {},
+                "Security Cameras": {},
+                "Surveillance Systems": {}
+            },
+            "Security Alarms & Sensors": {
+                "Alarms": {},
+                "Motion Sensors": {},
+                "Security Systems": {},
+                "Smoke & Carbon Monoxide Detectors": {}
+            },
+            "Smart Home & Home Automation": {
+                "Home Automation Systems": {},
+                "Smart Lighting": {},
+                "Smart Switches & Outlets": {},
+                "Sprinklers": {},
+                "Thermostats": {},
+                "Voice Assistants": {}
+            }
+        },
+        "Networking & Servers": {
+            "Boosters, Extenders & Antennas": {},
+            "Bridges & Routers": {},
+            "Firewall & VPN Devices": {},
+            "Hubs & Switches": {},
+            "Load Balancers": {},
+            "Mobile Broadband Devices": {},
+            "Modem-Router Combos": {},
+            "Modems": {},
+            "NAS Disk Arrays": {},
+            "SAN Disk Arrays": {},
+            "Servers, Clients & Terminals": {},
+            "Wireless Access Points": {}
+        },
+        "Portable Audio & Video": {
+            "Headphone Cord Winders": {},
+            "Headphone Cushions & Tips": {},
+            "Headphones": {},
+            "Karaoke Systems": {},
+            "MP3 & MP4 Players": {},
+            "Portable DVD Players": {},
+            "Portable Stereos & Boomboxes": {}
+        },
+        "Printers & Scanners": {
+            "3D Printers & Scanners": {},
+            "Printer Ink & Toner Cartridges": {},
+            "Printer Paper": {},
+            "Printers, Copiers & Fax Machines": {},
+            "Scanners": {}
+        },
+        "Pro Audio Equipment": {
+            "DJ Equipment": {},
+            "Karaoke Equipment": {},
+            "Live Sound Equipment": {},
+            "Stage & Studio Cables": {},
+            "Stage Lighting & Effects": {},
+            "Studio Recording Equipment": {}
+        },
+        "Software": {},
+        "Video Games & Consoles": {
+            "Video Game Accessories": {
+                "Batteries": {},
+                "Cables & Adapters": {},
+                "Cases, Covers & Bags": {},
+                "Chargers & Docks": {},
+                "Controllers & Attachments": {},
+                "Cooling Devices": {},
+                "Hard Drives": {},
+                "Headsets": {},
+                "Keyboards & Keypads": {},
+                "Memory Cards & Expansion Packs": {},
+                "Motion Sensors & Cameras": {},
+                "Screen Protectors": {},
+                "Styluses": {}
+            },
+            "Video Game Consoles": {},
+            "Video Games": {},
+            "Virtual Reality": {
+                "Controllers & Motion Sensors": {},
+                "Headsets": {}
+            }
+        }
+    },
+    "Furniture": {
+        "Armoires & Wardrobes": {},
+        "Bedroom Furniture": {
+            "Armoires & Wardrobes": {},
+            "Bedroom Furniture Sets": {},
+            "Beds & Bed Frames": {},
+            "Dressers": {},
+            "Mattresses": {},
+            "Nightstands": {}
+        },
+        "Beds & Bed Frames": {},
+        "Benches": {},
+        "Bookcases": {},
+        "Coffee Tables": {},
+        "Dining Room Furniture": {
+            "Bar Carts": {},
+            "Bar Stools": {},
+            "Buffets & Sideboards": {},
+            "Cabinets & Hutches": {},
+            "Dining Chairs": {},
+            "Dining Furniture Sets": {},
+            "Dining Tables": {},
+            "Kitchen Islands": {}
+        },
+        "Dressers": {},
+        "Living Room Furniture": {
+            "Bookcases": {},
+            "Chaise Lounges": {},
+            "Coffee Tables": {},
+            "Console Tables": {},
+            "End & Side Tables": {},
+            "Futons": {},
+            "Living Room Chairs": {},
+            "Living Room Furniture Sets": {},
+            "Ottomans & Footstools": {},
+            "Sofas, Loveseats & Sectionals": {},
+            "TV Stands & Entertainment Centers": {}
+        },
+        "Mattresses": {},
+        "Nursery Furniture": {
+            "Baby Dressers": {},
+            "Bassinets & Cradles": {},
+            "Bedside Sleepers": {},
+            "Chairs": {},
+            "Changing Tables": {},
+            "Crib Mattresses": {},
+            "Cribs": {},
+            "Nursery Furniture Sets": {}
+        },
+        "Office Furniture": {
+            "Desks": {},
+            "Office Chairs": {},
+            "Office Furniture Sets": {},
+            "Storage & Filing Cabinets": {}
+        },
+        "Outdoor Furniture": {
+            "Hammocks": {},
+            "Outdoor Blankets": {},
+            "Outdoor Chairs, Benches & Swings": {},
+            "Outdoor Furniture Sets": {},
+            "Outdoor Sofas": {},
+            "Outdoor Storage Boxes": {},
+            "Outdoor Tables": {}
+        },
+        "Sofas, Loveseats & Sectional": {},
+        "TV Stands": {},
+        "Wall Shelves & Ledges": {}
+    },
+    "Health & Beauty": {
+        "Beauty": {
+            "Bath & Body": {
+                "Bath Bombs": {},
+                "Bath Oils": {},
+                "Bath Salts": {},
+                "Body Lotions & Moisturizers": {},
+                "Body Washes & Soaps": {},
+                "Bubble Baths": {},
+                "Deodorants & Antiperspirants": {},
+                "Hand Sanitizers": {},
+                "Hand Soaps": {},
+                "Scrubs & Exfoliants": {},
+                "Sponges & Brushes": {}
+            },
+            "Fragrances": {
+                "Kid's Fragrances": {},
+                "Men's Fragrances": {},
+                "Women's Fragrances": {}
+            },
+            "Hair Care & Styling": {
+                "Brushes & Combs": {},
+                "Hair Coloring & Dyes": {},
+                "Hair Cutting Scissors & Shears": {},
+                "Hair Dryers": {},
+                "Hair Extensions & Wigs": {},
+                "Hair Oils & Protectors": {},
+                "Hair Ties & Styling Accessories": {},
+                "Rollers & Curlers": {},
+                "Shampoos & Conditioners": {},
+                "Straightening & Curling Irons": {},
+                "Styling Products": {}
+            },
+            "Makeup": {
+                "Eye Makeup": {
+                    "Eye Primers": {},
+                    "Eye Shadows": {},
+                    "Eyebrow Products": {},
+                    "Eyeliners": {},
+                    "False Eyelashes & Adhesives": {},
+                    "Mascara": {}
+                },
+                "Face Makeup": {
+                    "BB, CC & Alphabet Creams": {},
+                    "Blushes": {},
+                    "Bronzers & Highlighters": {},
+                    "Concealers": {},
+                    "Face Powders": {},
+                    "Face Primers": {},
+                    "Foundations": {}
+                },
+                "Lip Makeup": {
+                    "Lip Gloss": {},
+                    "Lip Liners": {},
+                    "Lip Plumpers": {},
+                    "Lip Stains": {},
+                    "Lipstick": {}
+                },
+                "Makeup Sets & Kits": {},
+                "Makeup Tools & Accessories": {
+                    "Blotting Paper": {},
+                    "Brush Cleaners": {},
+                    "Brushes & Sponges": {},
+                    "Eyelash Tools": {},
+                    "Makeup Bags & Storage": {},
+                    "Makeup Finishing Sprays": {},
+                    "Makeup Mirrors": {},
+                    "Sharpeners": {}
+                }
+            },
+            "Nail Care": {
+                "Artificial Nails & Accessories": {},
+                "Nail Polish & Art": {
+                    "Nail Polish": {},
+                    "Nail Polish Remover": {}
+                },
+                "Nail Tools": {
+                    "Cuticle Pushers": {},
+                    "Nail Buffers": {},
+                    "Nail Clippers": {},
+                    "Nail Drills": {},
+                    "Nail Files & Emery Boards": {},
+                    "Nail Spas & Baths": {}
+                }
+            },
+            "Skin Care": {
+                "Acne & Blemish Treatments": {},
+                "Cleansers & Toners": {},
+                "Exfoliators & Scrubs": {},
+                "Facial Lotion & Moisturizer": {},
+                "Lip Balms & Treatments": {},
+                "Masks & Peels": {},
+                "Night Treatments": {},
+                "Pore Strips": {},
+                "Pumice Stones": {},
+                "Skin Cleansing Brushes & Systems": {},
+                "Sunscreen": {},
+                "Tanning Oil & Lotion": {}
+            }
+        },
+        "Health Care": {
+            "Feminine Care": {
+                "Menstrual Cups": {},
+                "Menstrual Pads & Pantiliners": {},
+                "Tampons": {}
+            },
+            "First Aid": {
+                "Cotton Balls & Swabs": {},
+                "Ointments, Creams & Oils": {}
+            }
+        },
+        "Massage": {
+            "Massage Chairs": {},
+            "Massage Oils & Lotions": {},
+            "Massage Pillows & Bolsters": {},
+            "Massage Tables": {},
+            "Massagers": {}
+        },
+        "Oral Care": {
+            "Air & Water Flossers": {},
+            "Dental Floss & Flossers": {},
+            "Electric Toothbrushes": {},
+            "Manual Toothbrushes": {},
+            "Mouthwash": {},
+            "Tongue Cleaners": {},
+            "Toothbrush Replacement Heads": {},
+            "Toothpaste": {},
+            "Whitening Supplies": {}
+        },
+        "Shaving & Hair Removal": {
+            "Aftershave & Pre-Shave": {},
+            "Clippers & Trimmers": {},
+            "Electric Shavers": {},
+            "Hair Removal Creams & Sprays": {},
+            "Razor Blades": {},
+            "Razors": {},
+            "Shaving Creams, Foams & Gels": {},
+            "Tweezers": {},
+            "Waxing Supplies": {}
+        },
+        "Vision Care": {
+            "Contact Lens Care Solutions": {},
+            "Eyeglass Cases": {},
+            "Eyeglass Cloths & Sprays": {},
+            "Eyeglass Frames": {},
+            "Eyeglass Straps & Cords": {}
+        }
+    },
+    "Home & Kitchen": {
+        "Bath": {
+            "Bath Accessories": {
+                "Mirrors": {},
+                "Plungers": {},
+                "Scales": {},
+                "Shower Curtains": {},
+                "Shower Heads": {},
+                "Soap Dishes & Dispensers": {},
+                "Tissue Box Covers": {},
+                "Toilet Brushes": {},
+                "Toilet Covers": {}
+            },
+            "Bath Linens": {
+                "Bath Mats & Rugs": {},
+                "Bath Pillows": {},
+                "Towels & Washcloths": {}
+            },
+            "Bath Storage": {
+                "Bath Caddies": {},
+                "Medicine Cabinets": {},
+                "Robe & Towel Hooks": {},
+                "Toilet Paper Holders": {},
+                "Toothbrush Holders": {},
+                "Towel Racks & Holders": {}
+            }
+        },
+        "Bedding": {
+            "Bed Pillows & Positioners": {},
+            "Bed Sheets & Pillowcases": {},
+            "Bed Skirts": {},
+            "Bedding Sets & Collections": {},
+            "Bedspreads, Quilts & Coverlets": {},
+            "Blankets & Throws": {},
+            "Comforters": {},
+            "Duvet Covers": {},
+            "Mattress Pads & Protectors": {},
+            "Nursery Bedding": {
+                "Baby Blankets & Throws": {},
+                "Crib Sheets": {},
+                "Duvet Covers & Inserts": {},
+                "Mattress Pads & Covers": {},
+                "Quilts & Coverlets": {}
+            },
+            "Throw Pillows": {}
+        },
+        "Furniture": {
+            "Armoires & Wardrobes": {},
+            "Bedroom Furniture": {
+                "Armoires & Wardrobes": {},
+                "Bedroom Furniture Sets": {},
+                "Beds & Bed Frames": {},
+                "Dressers": {},
+                "Mattresses": {},
+                "Nightstands": {}
+            },
+            "Beds & Bed Frames": {},
+            "Benches": {},
+            "Bookcases": {},
+            "Coffee Tables": {},
+            "Dining Room Furniture": {
+                "Bar Carts": {},
+                "Bar Stools": {},
+                "Buffets & Sideboards": {},
+                "Cabinets & Hutches": {},
+                "Dining Chairs": {},
+                "Dining Furniture Sets": {},
+                "Dining Tables": {},
+                "Kitchen Islands": {}
+            },
+            "Dressers": {},
+            "Living Room Furniture": {
+                "Bookcases": {},
+                "Chaise Lounges": {},
+                "Coffee Tables": {},
+                "Console Tables": {},
+                "End & Side Tables": {},
+                "Futons": {},
+                "Living Room Chairs": {},
+                "Living Room Furniture Sets": {},
+                "Ottomans & Footstools": {},
+                "Sofas, Loveseats & Sectionals": {},
+                "TV Stands & Entertainment Centers": {}
+            },
+            "Mattresses": {},
+            "Nursery Furniture": {
+                "Baby Dressers": {},
+                "Bassinets & Cradles": {},
+                "Bedside Sleepers": {},
+                "Chairs": {},
+                "Changing Tables": {},
+                "Crib Mattresses": {},
+                "Cribs": {},
+                "Nursery Furniture Sets": {}
+            },
+            "Office Furniture": {
+                "Desks": {},
+                "Office Chairs": {},
+                "Office Furniture Sets": {},
+                "Storage & Filing Cabinets": {}
+            },
+            "Outdoor Furniture": {
+                "Hammocks": {},
+                "Outdoor Blankets": {},
+                "Outdoor Chairs, Benches & Swings": {},
+                "Outdoor Furniture Sets": {},
+                "Outdoor Sofas": {},
+                "Outdoor Storage Boxes": {},
+                "Outdoor Tables": {}
+            },
+            "Sofas, Loveseats & Sectional": {},
+            "TV Stands": {},
+            "Wall Shelves & Ledges": {}
+        },
+        "Home Decor": {
+            "Clocks": {},
+            "Decorative Accents": {
+                "Artificial Plants & Flowers": {},
+                "Baskets": {},
+                "Bookends": {},
+                "Boxes, Jars & Tins": {},
+                "Decals, Stickers & Vinyl Art": {},
+                "Door Mats": {},
+                "Doorstops": {},
+                "Figurines": {},
+                "Frames": {},
+                "Indoor Fountains": {},
+                "Message Boards & Holders": {},
+                "Mirrors": {},
+                "Plaques & Signs": {},
+                "Posters & Prints": {},
+                "Sculptures": {},
+                "Tapestries": {},
+                "Vases": {}
+            },
+            "Garden Decor": {
+                "Flags & Flag Poles": {},
+                "Outdoor Thermometers": {},
+                "Plaques & Signs": {},
+                "Rain Gauges": {},
+                "Statues & Lawn Ornaments": {},
+                "Stepping Stones": {},
+                "Sundials": {},
+                "Weathervanes": {},
+                "Wind Chimes": {},
+                "Windmills & Spinners": {}
+            },
+            "Holiday & Seasonal Decor": {
+                "Advent Calendars": {},
+                "Christmas Lights": {},
+                "Christmas Trees": {},
+                "Holiday Ornaments": {},
+                "Nativity Sets": {},
+                "Snow Globes": {},
+                "Stockings & Hangers": {},
+                "Tree Stands & Skirts": {},
+                "Wreaths, Garlands & Plants": {}
+            },
+            "Home Fragrances": {
+                "Air Fresheners": {},
+                "Candle & Oil Warmers": {},
+                "Candle Holders": {},
+                "Candles": {},
+                "Diffusers & Fragrance Oil": {},
+                "Incense": {},
+                "Incense Holders": {},
+                "Potpourri": {},
+                "Wax Tarts": {}
+            },
+            "Rugs & Carpets": {
+                "Area Rugs": {},
+                "Carpet Tiles": {},
+                "Floor Mats": {},
+                "Runners": {}
+            },
+            "Window Decor & Hardware": {
+                "Curtains & Drapes": {},
+                "Shutters": {},
+                "Window Blinds & Shades": {}
+            }
+        },
+        "Household Supplies & Cleaning": {
+            "General Cleaning Supplies": {
+                "Carpet & Floor Sweepers": {},
+                "Carpet Shampooers": {},
+                "Cleaning Products": {},
+                "Dusters": {},
+                "Mops & Brooms": {},
+                "Scrub Brushes": {},
+                "Sponges & Scouring Pads": {},
+                "Squeegees": {},
+                "Trash Bags": {},
+                "Trash Cans & Wastebaskets": {}
+            },
+            "Household Disposables": {
+                "Disposable Cups": {},
+                "Disposable Plates": {},
+                "Facial Tissues": {},
+                "Paper Towels": {},
+                "Toilet Paper": {},
+                "Trash Bags": {}
+            },
+            "Laundry Supplies": {
+                "Bleaches & Stain Removers": {},
+                "Detergents": {},
+                "Drying Racks & Hangers": {},
+                "Fabric Softeners & Dryer Sheets": {},
+                "Garment Steamers": {},
+                "Hampers & Baskets": {},
+                "Ironing Boards": {},
+                "Irons": {},
+                "Lint Rollers": {},
+                "Washing Bags": {}
+            },
+            "Vacuum Cleaners": {
+                "Canister Vacuum Cleaners": {},
+                "Handheld Vacuum Cleaners": {},
+                "Robotic Vacuum Cleaners": {},
+                "Stick Vacuum Cleaners": {},
+                "Upright Vacuum Cleaners": {}
+            }
+        },
+        "Kitchen & Dining": {
+            "Bakeware": {
+                "Bakeware Sets": {},
+                "Baking & Cookie Sheets": {},
+                "Bread Pans & Molds": {},
+                "Cooling Racks": {},
+                "Muffin & Pastry Pans": {},
+                "Pizza Pans & Stones": {},
+                "Ramekins & Souffl\u00e9 Dishes": {},
+                "Roasting Pans": {}
+            },
+            "Barware": {
+                "Coasters": {},
+                "Cocktail Shakers": {},
+                "Cocktail Strainers": {},
+                "Corkscrews & Bottle Openers": {},
+                "Decanters": {},
+                "Ice Cube Trays & Molds": {},
+                "Wine Fridges & Cellars": {},
+                "Wine Racks & Bottle Holders": {}
+            },
+            "Cookware": {
+                "Casserole Dishes": {},
+                "Cookware Sets": {},
+                "Dutch Ovens": {},
+                "Griddles": {},
+                "Saucepans": {},
+                "Skillets & Frying Pans": {},
+                "Stock Pots": {},
+                "Woks": {}
+            },
+            "Dinnerware": {
+                "Bowls": {},
+                "Butter Dishes": {},
+                "Dinnerware Sets": {},
+                "Pitchers": {},
+                "Plates": {},
+                "Platters & Trays": {},
+                "Salt & Pepper Shakers": {},
+                "Serving Bowls": {}
+            },
+            "Drinkware": {
+                "Beer Glasses": {},
+                "Cocktail & Liquor Glasses": {},
+                "Coffee & Tea Cups": {},
+                "Drinkware Sets": {},
+                "Mugs": {},
+                "Teapots": {},
+                "Tumblers": {},
+                "Wine & Champagne Glasses": {}
+            },
+            "Flatware": {
+                "Chopsticks": {},
+                "Flatware Sets": {},
+                "Forks": {},
+                "Kitchen Knives": {},
+                "Knife Blocks & Storage": {},
+                "Knives": {},
+                "Scissors & Shears": {},
+                "Spoons": {}
+            },
+            "Kitchen Storage & Organization": {
+                "Flatware Storage": {},
+                "Paper Towel Holders": {},
+                "Pot Racks": {},
+                "Sink Caddies": {},
+                "Sink Mats & Grids": {},
+                "Spice Organizers": {}
+            },
+            "Kitchen Tools & Utensils": {
+                "Can Openers": {},
+                "Colanders, Strainers & Sifters": {},
+                "Cooking Thermometers": {},
+                "Cooking Utensils": {},
+                "Cutting Boards": {},
+                "Dish Racks": {},
+                "Funnels": {},
+                "Measuring Cups & Spoons": {},
+                "Mixing Bowls": {},
+                "Mortar & Pestles": {},
+                "Timers": {}
+            },
+            "Outdoor Cooking": {
+                "BBQ Tools & Accessories": {},
+                "Barbecue & Grill Covers": {},
+                "Barbecues, Grills & Smokers": {},
+                "Fire Pits & Chimineas": {}
+            },
+            "Small Kitchen Appliances": {
+                "Bread Makers": {},
+                "Coffee Makers & Espresso Machines": {},
+                "Cookers & Steamers": {},
+                "Deep Fryers & Air Fryers": {},
+                "Food Dehydrators": {},
+                "Food Processors": {},
+                "Juicers": {},
+                "Kitchen Scales": {},
+                "Meat Grinders": {},
+                "Mixers & Blenders": {},
+                "Toasters & Toaster Ovens": {}
+            }
+        },
+        "Lamps & Lighting": {
+            "Ceiling Fans": {},
+            "Chandeliers": {},
+            "Lamp Shades": {},
+            "Lamps": {},
+            "Light Bulbs": {},
+            "Night Lights": {},
+            "Outdoor Lighting": {
+                "Garden & Patio Torches": {},
+                "Landscape & Walkway Lights": {},
+                "Outdoor Security & Floodlights": {},
+                "Outdoor String Lights": {},
+                "Outdoor Wall & Porch Lights": {}
+            },
+            "String Lights": {}
+        },
+        "Major Appliances": {
+            "Dishwashers": {},
+            "Microwave Ovens": {},
+            "Ranges & Ovens": {},
+            "Refrigerators & Freezers": {},
+            "Washers & Dryers": {
+                "Dryers": {},
+                "Washing Machine & Dryer Sets": {},
+                "Washing Machines": {}
+            }
+        },
+        "Storage & Organization": {
+            "Clothing Storage": {
+                "Closet Organizers": {},
+                "Clothes Hangers": {},
+                "Coat & Hat Racks": {},
+                "Garment Racks": {},
+                "Shoe Organizers": {}
+            },
+            "General Storage": {
+                "Hooks & Hangers": {},
+                "Storage Bags": {},
+                "Storage Bins & Boxes": {},
+                "Storage Drawers": {}
+            }
+        }
+    },
+    "Jewelry & Watches": {
+        "Jewelry": {
+            "Anklets": {},
+            "Body Jewelry": {},
+            "Bracelets": {},
+            "Charms & Pendants": {},
+            "Earrings": {},
+            "Engagement Jewelry": {
+                "Engagement & Wedding Ring Sets": {},
+                "Engagement Rings": {},
+                "Wedding & Anniversary Bands": {}
+            },
+            "Jewelry Sets": {},
+            "Lapel Pins & Brooches": {},
+            "Necklaces": {},
+            "Rings": {}
+        },
+        "Watches & Accessories": {
+            "Watch Parts & Accessories": {},
+            "Watches": {
+                "Kid's Watches": {},
+                "Men's Watches": {},
+                "Smart Watches": {},
+                "Women's Watches": {}
+            }
+        }
+    },
+    "Musical Instruments": {
+        "Brass Instruments": {
+            "Alto & Tenor Horns": {},
+            "Baritone Horns": {},
+            "Bugles": {},
+            "Cornets": {},
+            "Euphoniums": {},
+            "Flugelhorns": {},
+            "French Horns": {},
+            "Mellophones": {},
+            "Sousaphones": {},
+            "Trombones": {},
+            "Trumpets": {},
+            "Tubas": {}
+        },
+        "Drums & Percussion Instruments": {
+            "Cymbals": {},
+            "Drums": {
+                "Acoustic Drums": {
+                    "Bass Drums": {},
+                    "Concert Drums": {},
+                    "Drum Sets & Kits": {},
+                    "Electronic Drums": {},
+                    "Marching Drums": {},
+                    "Snare Drums": {},
+                    "Toms": {}
+                },
+                "Electronic Drums": {},
+                "Folk & World Drums": {}
+            },
+            "Percussion Instruments": {
+                "Hand Percussion Instruments": {},
+                "Orchestral Percussion Instruments": {}
+            }
+        },
+        "General Music Accessories": {
+            "Conducting Batons": {},
+            "Metronomes": {},
+            "Music Stands": {},
+            "Sheet Music Folders": {},
+            "Staff Boards": {},
+            "Staff Paper": {},
+            "Tuners": {}
+        },
+        "Guitars & Basses": {
+            "Acoustic Basses": {},
+            "Acoustic Guitars": {},
+            "Amplifiers & Effects": {
+                "Bass Amplifiers": {},
+                "Effects Pedals": {},
+                "Guitar Amplifiers": {},
+                "Multi Effects Pedals": {},
+                "Pedalboards": {}
+            },
+            "Classical Guitars": {},
+            "Electric Basses": {},
+            "Electric Guitars": {}
+        },
+        "Pianos & Keyboard Instruments": {
+            "Electronic Keyboards": {},
+            "Folk & World Keyboard Instruments": {
+                "Accordions": {},
+                "Concertinas": {},
+                "Harmoniums": {},
+                "Melodicas": {},
+                "Thumb Pianos": {}
+            },
+            "Harpsichords": {},
+            "Organs": {},
+            "Pianos": {}
+        },
+        "Pro Audio Equipment": {
+            "DJ Equipment": {},
+            "Karaoke Equipment": {},
+            "Live Sound Equipment": {},
+            "Stage & Studio Cables": {},
+            "Stage Lighting & Effects": {},
+            "Studio Recording Equipment": {}
+        },
+        "Stringed Instruments": {
+            "Folk & World Stringed Instruments": {
+                "Autoharps & Zithers": {},
+                "Dulcimers": {},
+                "Lutes": {},
+                "Mandolins": {},
+                "Sitars": {},
+                "Ukuleles": {}
+            },
+            "Orchestral Stringed Instruments": {
+                "Cellos": {},
+                "Harps": {},
+                "Upright Basses": {},
+                "Violas": {},
+                "Violins": {}
+            }
+        },
+        "Woodwind Instruments": {
+            "Folk & World Woodwind Instruments": {
+                "Bagpipes": {},
+                "Didgeridoos": {},
+                "Harmonicas": {},
+                "Kazoos": {},
+                "Mouth Harps": {}
+            },
+            "Orchestral Woodwind Instruments": {
+                "Bassoons": {},
+                "Clarinets": {},
+                "English Horns": {},
+                "Flutes": {},
+                "Oboes": {},
+                "Piccolos": {},
+                "Recorders": {},
+                "Saxophones": {}
+            }
+        }
+    },
+    "Office Supplies": {
+        "Binders & Accessories": {},
+        "Book Accessories": {
+            "Book Covers": {},
+            "Book Lights": {},
+            "Book Stands & Rests": {},
+            "Bookmarks": {}
+        },
+        "Calendars & Planners": {
+            "Address Books": {},
+            "Calendars": {},
+            "Planners & Organizers": {}
+        },
+        "Filing & Storage": {
+            "CD & DVD Cases": {},
+            "Card Sleeves & Sheets": {},
+            "Desk Organizers": {},
+            "File Boxes & Frames": {},
+            "File Folders": {}
+        },
+        "General Office Supplies": {
+            "Clips & Fasteners": {},
+            "Labels": {},
+            "Magnifiers": {},
+            "Paper Products": {
+                "Binder Paper": {},
+                "Cardstock": {},
+                "Index Cards": {},
+                "Notebooks & Notepads": {},
+                "Printer & Copier Paper": {},
+                "Stationery": {},
+                "Sticky Notes": {}
+            },
+            "Rubber Stamps": {}
+        },
+        "Mailing Supplies": {
+            "Envelopes": {},
+            "Letter Openers": {},
+            "Moving & Shipping Boxes": {},
+            "Packing Materials": {},
+            "Packing Tape": {},
+            "Postage Stamps": {}
+        },
+        "Office Equipment & Machines": {
+            "Label Makers": {},
+            "Laminating Film & Sheets": {},
+            "Laminators": {},
+            "Office Shredders": {},
+            "Typewriters": {}
+        },
+        "Presentation & Display Boards": {
+            "Bulletin Boards": {},
+            "Chalkboards": {},
+            "Easel Pads": {},
+            "Poster Boards": {},
+            "Presentation Boards": {},
+            "Whiteboards": {}
+        },
+        "Projectors & Presentation Equipment": {},
+        "Staplers & Punches": {
+            "Paper Punches": {},
+            "Staple Removers": {},
+            "Staplers": {},
+            "Staples": {}
+        },
+        "Tape & Adhesives": {
+            "Glue & Glue Sticks": {},
+            "Mounting Putty": {},
+            "Office Tape": {},
+            "Tape Dispensers": {}
+        },
+        "Writing Supplies": {
+            "Chalkboard Chalk": {},
+            "Correction Fluid & Tape": {},
+            "Crayons": {},
+            "Erasers": {},
+            "Markers & Highlighters": {},
+            "Pencil Cases & Pouches": {},
+            "Pencil Lead Refills": {},
+            "Pencil Sharpeners": {},
+            "Pencils": {},
+            "Pens": {}
+        }
+    },
+    "Patio & Garden": {
+        "Garden Decor": {
+            "Flags & Flag Poles": {},
+            "Outdoor Thermometers": {},
+            "Plaques & Signs": {},
+            "Rain Gauges": {},
+            "Statues & Lawn Ornaments": {},
+            "Stepping Stones": {},
+            "Sundials": {},
+            "Weathervanes": {},
+            "Wind Chimes": {},
+            "Windmills & Spinners": {}
+        },
+        "Garden Hand Tools & Equipment": {
+            "Axes & Hatchets": {},
+            "Forks": {},
+            "Hoes & Cultivators": {},
+            "Lawn Rollers": {},
+            "Loppers": {},
+            "Pruning Shears & Snips": {},
+            "Rakes": {},
+            "Saws": {},
+            "Scythes & Sickles": {},
+            "Shovels": {},
+            "Trowels": {},
+            "Wheelbarrows, Carts & Wagons": {}
+        },
+        "Outdoor Cooking": {
+            "BBQ Tools & Accessories": {},
+            "Barbecue & Grill Covers": {},
+            "Barbecues, Grills & Smokers": {},
+            "Fire Pits & Chimineas": {}
+        },
+        "Outdoor Furniture": {
+            "Hammocks": {},
+            "Outdoor Blankets": {},
+            "Outdoor Chairs, Benches & Swings": {},
+            "Outdoor Furniture Sets": {},
+            "Outdoor Heaters": {},
+            "Outdoor Sofas": {},
+            "Outdoor Storage Boxes": {},
+            "Outdoor Tables": {}
+        },
+        "Outdoor Lighting": {
+            "Garden & Patio Torches": {},
+            "Landscape & Walkway Lights": {},
+            "Outdoor Security & Floodlights": {},
+            "Outdoor String Lights": {},
+            "Outdoor Wall & Porch Lights": {}
+        },
+        "Outdoor Power Equipment": {
+            "Chainsaws": {},
+            "Chippers, Shredders & Mulchers": {},
+            "Edgers": {},
+            "Grass Shears": {},
+            "Hedge & Weed Trimmers": {},
+            "Lawn Mowers": {},
+            "Leaf Blowers & Vacuums": {},
+            "Pressure Washers": {},
+            "Snow Blowers": {},
+            "Sweepers": {},
+            "Tillers": {}
+        },
+        "Plant Care, Soil & Accessories": {
+            "Fertilizers": {},
+            "Garden Sprayers": {},
+            "Plant Hooks & Hangers": {},
+            "Plant Stands": {},
+            "Pots & Planters": {},
+            "Soil": {}
+        },
+        "Plants, Seeds & Bulbs": {
+            "Plant Growing Kits": {},
+            "Plants & Seedlings": {},
+            "Seeds & Bulbs": {}
+        },
+        "Ponds & Water Features": {
+            "Outdoor Fountains": {},
+            "Pond & Fountain Pumps": {},
+            "Pond Decor": {},
+            "Pond Filtration Equipment": {},
+            "Pond Lights": {},
+            "Ponds": {}
+        },
+        "Pools & Spas": {
+            "Pool Cleaning Tools": {},
+            "Pool Floats & Rafts": {},
+            "Pool Toys": {},
+            "Saunas": {},
+            "Spas & Hot Tubs": {},
+            "Swimming Pools": {}
+        },
+        "Watering Equipment": {
+            "Globes & Spikes": {},
+            "Hose Nozzles & Wands": {},
+            "Hose Reels & Storage": {},
+            "Hoses": {},
+            "Lawn Sprinklers": {},
+            "Watering Cans": {}
+        }
+    },
+    "Pet Supplies": {
+        "Bird Supplies": {
+            "Bird Cages": {},
+            "Bird Food & Treats": {},
+            "Bird Perches & Playstands": {},
+            "Bird Toys": {},
+            "Bird Waterers & Feeders": {}
+        },
+        "Cat Supplies": {
+            "Cat Apparel": {},
+            "Cat Food": {},
+            "Cat Litter & Waste Disposal": {},
+            "Cat Toys": {},
+            "Cat Treats": {},
+            "Cat Trees & Scratchers": {}
+        },
+        "Dog Supplies": {
+            "Dog Apparel": {},
+            "Dog Chews & Treats": {},
+            "Dog Diapers": {},
+            "Dog Food": {},
+            "Dog Houses": {},
+            "Dog Toys": {},
+            "Dog Waste Disposal Bags & Scoops": {}
+        },
+        "Fish Supplies": {
+            "Aquarium Decor": {},
+            "Aquarium Equipment": {},
+            "Aquarium Stands & Cabinets": {},
+            "Aquariums": {},
+            "Fish Food": {}
+        },
+        "Pet Beds & Bedding": {},
+        "Pet Carriers & Containment": {
+            "Pet Car Barriers": {},
+            "Pet Car Seats": {},
+            "Pet Crates & Carriers": {},
+            "Pet Doors & Flaps": {},
+            "Pet Fences & Gates": {},
+            "Pet Outdoor Runs & Kennels": {},
+            "Pet Playpens": {},
+            "Pet Strollers": {}
+        },
+        "Pet Collars, Harnesses & Leashes": {
+            "Pet Collars": {},
+            "Pet Harnesses": {},
+            "Pet Leashes": {},
+            "Pet Tags & Charms": {}
+        },
+        "Pet Feeding & Watering Supplies": {
+            "Pet Automatic Feeders": {},
+            "Pet Bowls & Dishes": {},
+            "Pet Feeding Mats": {},
+            "Pet Food Storage": {},
+            "Pet Water Fountains": {}
+        },
+        "Pet Grooming Supplies": {
+            "Pet Combs & Brushes": {},
+            "Pet Hair Clippers & Trimmers": {},
+            "Pet Hair Dryers": {},
+            "Pet Nail Care": {},
+            "Pet Shampoos & Conditioners": {},
+            "Pet Wipes": {}
+        },
+        "Pet Steps & Ramps": {},
+        "Reptile & Amphibian Supplies": {},
+        "Small Animal Supplies": {}
+    },
+    "Sporting Goods": {
+        "Exercise & Fitness": {
+            "Ab Exercisers": {},
+            "Aerobic Steps": {},
+            "Balance Trainers": {},
+            "Cardio Equipment": {
+                "Elliptical Trainers": {},
+                "Exercise Bikes": {},
+                "Jump Ropes": {},
+                "Rowing Machines": {},
+                "Stair Climbers & Step Machines": {},
+                "Treadmills": {}
+            },
+            "Exercise Balls": {},
+            "Exercise Bands": {},
+            "Exercise Benches & Wedges": {},
+            "Foam Rollers & Massagers": {},
+            "Power Towers": {},
+            "Push Up & Pull Up Bars": {},
+            "Suspension Trainers": {},
+            "Weight Lifting": {
+                "Dumbbells": {},
+                "Kettlebells": {},
+                "Medicine Balls": {},
+                "Weight Bars & Collars": {},
+                "Weight Lifting Belts": {},
+                "Weight Lifting Gloves": {},
+                "Weight Lifting Machines & Racks": {},
+                "Weight Plates": {},
+                "Weighted Clothing": {}
+            },
+            "Yoga & Pilates": {
+                "Pilates Machines": {},
+                "Yoga Bags & Mat Carriers": {},
+                "Yoga Blocks": {},
+                "Yoga Mats": {},
+                "Yoga Straps & Bands": {}
+            }
+        },
+        "General Purpose Equipment": {
+            "Athletic Cups": {},
+            "Ball Pumps": {},
+            "Elevation Training Masks": {},
+            "Fitness & Activity Monitors": {},
+            "Grip Spray & Chalk": {},
+            "Gym Mats": {},
+            "Mouth Guards": {},
+            "Reflective Gear": {},
+            "Stopwatches": {}
+        },
+        "Indoor Games": {
+            "Air Hockey Equipment": {},
+            "Billiards": {
+                "Billiard Ball Racks": {},
+                "Billiard Balls": {},
+                "Billiard Cues & Bridges": {},
+                "Billiard Tables": {}
+            },
+            "Bowling Equipment": {},
+            "Darts Equipment": {},
+            "Foosball Equipment": {},
+            "Ping Pong & Table Tennis Equipment": {}
+        },
+        "Outdoor Games": {
+            "Disc Golf Equipment": {},
+            "Lawn Games": {
+                "Bocce Ball": {},
+                "Cornhole Bag Toss": {},
+                "Croquet": {},
+                "Horseshoes": {}
+            },
+            "Tetherball Equipment": {}
+        },
+        "Outdoor Recreation": {
+            "Camping & Hiking": {
+                "Camping Cooking Supplies": {
+                    "Camping Cookware": {},
+                    "Camping Coolers": {},
+                    "Camping Grills": {},
+                    "Camping Kettles & Coffee Pots": {},
+                    "Camping Stoves & Burners": {}
+                },
+                "Camping Gear": {
+                    "Camping Chairs": {},
+                    "Camping Heaters": {},
+                    "Compasses": {},
+                    "Fire Starters": {},
+                    "Insect Repellent": {},
+                    "Mosquito Nets & Insect Screens": {},
+                    "Water Filters & Purifiers": {}
+                },
+                "Camping Lights & Lanterns": {
+                    "Flashlights": {},
+                    "Headlamps": {},
+                    "Lanterns": {}
+                },
+                "Hiking Backpacks": {},
+                "Outdoor Sleeping Gear": {
+                    "Hammocks": {},
+                    "Sleeping Bags": {},
+                    "Sleeping Mats & Pads": {}
+                },
+                "Portable Toilets & Showers": {},
+                "Tents & Shelters": {}
+            },
+            "Climbing": {
+                "Chalk Bags": {},
+                "Climbing Hardware": {},
+                "Climbing Helmets": {},
+                "Climbing Tape": {},
+                "Clothing & Shoes": {},
+                "Crash Pads & Mats": {},
+                "Rope Bags": {}
+            },
+            "Cycling": {
+                "Bicycle Accessories": {
+                    "Bicycle Bags & Panniers": {},
+                    "Bicycle Baskets": {},
+                    "Bicycle Bells & Horns": {},
+                    "Bicycle Child Seats": {},
+                    "Bicycle Lights & Reflectors": {},
+                    "Bicycle Locks": {},
+                    "Bicycle Pumps": {},
+                    "Bicycle Stands & Storage": {},
+                    "Bicycle Tire Repair Supplies & Kits": {},
+                    "Bicycle Trailers": {}
+                },
+                "Bicycles": {},
+                "Cycling Clothing": {
+                    "Cycling Bibs": {},
+                    "Cycling Jerseys": {},
+                    "Cycling Shorts & Briefs": {},
+                    "Cycling Tights": {}
+                },
+                "Cycling Shoes & Protective Gear": {
+                    "Cycling Cleats": {},
+                    "Cycling Gloves": {},
+                    "Cycling Helmets": {},
+                    "Cycling Protective Pads": {},
+                    "Cycling Shoe Covers": {}
+                },
+                "Tricycles": {},
+                "Unicycles": {}
+            },
+            "Fishing": {
+                "Fishing Baits & Lures": {},
+                "Fishing Equipment": {
+                    "Fishfinders": {},
+                    "Fishing Nets": {},
+                    "Fishing Scalers & Skinners": {},
+                    "Fishing Traps": {},
+                    "Pliers & Hook Removers": {}
+                },
+                "Fishing Rods & Reels": {},
+                "Fishing Tackle": {},
+                "Fishing Waders": {},
+                "Tackle Bags & Boxes": {}
+            },
+            "Inline & Roller Skating": {
+                "Inline Skates": {},
+                "Protective Gear": {},
+                "Roller Skates": {},
+                "Skate Wheels": {}
+            },
+            "Skateboarding": {
+                "Skateboard Parts": {},
+                "Skateboard Ramps & Rails": {},
+                "Skateboards & Longboards": {}
+            },
+            "Water Sports & Boating": {
+                "Boating, Rafting & Paddling": {
+                    "Boat Storage Racks": {},
+                    "Canoes": {},
+                    "Kayaks": {},
+                    "Paddleboards": {},
+                    "Paddles & Oars": {},
+                    "Pedal Boats": {},
+                    "Rafts": {},
+                    "Row Boats": {}
+                },
+                "Scuba Diving & Snorkeling": {
+                    "Diving & Snorkeling Fins": {},
+                    "Diving & Snorkeling Masks": {},
+                    "Diving Belts": {},
+                    "Diving Lights": {},
+                    "Diving Regulators": {},
+                    "Snorkels": {}
+                },
+                "Surfing": {
+                    "Bodyboards": {},
+                    "Skimboards": {},
+                    "Surfboards": {},
+                    "Surfing Accessories": {}
+                },
+                "Swimming": {
+                    "Hand Paddles": {},
+                    "Kickboards": {},
+                    "Pull Buoys": {},
+                    "Swim Gloves": {},
+                    "Swim Nose Clips": {},
+                    "Swimming Fins": {}
+                },
+                "Wakeboarding & Water Skiing": {
+                    "Kneeboards": {},
+                    "Towable Rafts & Tubes": {},
+                    "Wakeboards": {},
+                    "Water Skis": {}
+                },
+                "Water Sport Apparel & Accessories": {
+                    "Drysuits": {},
+                    "Helmets": {},
+                    "Life Vests": {},
+                    "Rash Guards": {},
+                    "Swim Caps": {},
+                    "Swim Goggles": {},
+                    "Water Shoes": {},
+                    "Wetsuits": {}
+                },
+                "Windsurfing Equipment": {}
+            },
+            "Winter Sports": {
+                "Skiing & Snowboarding": {
+                    "Ski Bindings": {},
+                    "Ski Boots": {},
+                    "Ski Poles": {},
+                    "Skis": {},
+                    "Snowboard Bindings": {},
+                    "Snowboard Boots": {},
+                    "Snowboards": {}
+                },
+                "Sleds & Snow Tubes": {},
+                "Snowshoes": {},
+                "Winter Clothing": {
+                    "Goggles & Masks": {},
+                    "Rain Suits": {},
+                    "Snow Suits": {}
+                }
+            }
+        },
+        "Sports Equipment": {
+            "Baseball & Softball": {
+                "Baseball & Softball Bats": {},
+                "Baseballs & Softballs": {},
+                "Field Equipment": {},
+                "Gloves & Mitts": {},
+                "Jerseys & Cleats": {},
+                "Protective Gear": {}
+            },
+            "Basketball": {
+                "Basketballs": {},
+                "Hoops": {},
+                "Jerseys": {},
+                "Rims & Nets": {}
+            },
+            "Boxing & Martial Arts": {
+                "Boxing & Martial Arts Gloves": {},
+                "Boxing & Martial Arts Uniforms": {},
+                "Protective Gear": {}
+            },
+            "Cricket": {
+                "Cricket Balls": {},
+                "Cricket Bats": {},
+                "Cricket Sets": {},
+                "Cricket Stumps": {},
+                "Protective Gear": {}
+            },
+            "Dance Equipment": {},
+            "Field Hockey & Lacrosse": {
+                "Field Hockey": {
+                    "Field Hockey Balls": {},
+                    "Field Hockey Goals": {},
+                    "Field Hockey Sticks": {}
+                },
+                "Lacrosse": {
+                    "Lacrosse Balls": {},
+                    "Lacrosse Goals": {},
+                    "Lacrosse Sticks": {}
+                },
+                "Protective Gear": {}
+            },
+            "Football": {
+                "Clothing & Shoes": {},
+                "Football Dummies & Sleds": {},
+                "Football Gloves": {},
+                "Footballs": {},
+                "Protective Gear": {}
+            },
+            "Golf": {
+                "Golf Accessories": {
+                    "Golf Bags": {},
+                    "Golf Gloves": {},
+                    "Golf Push Carts": {},
+                    "Golf Rangefinders": {},
+                    "Golf Tees": {},
+                    "Golf Umbrellas": {}
+                },
+                "Golf Balls": {},
+                "Golf Club Parts & Accessories": {},
+                "Golf Clubs": {}
+            },
+            "Gymnastics Equipment": {},
+            "Ice & Roller Hockey": {
+                "Hockey Balls & Pucks": {},
+                "Hockey Goals": {},
+                "Hockey Skates": {},
+                "Hockey Sticks": {},
+                "Protective Gear": {}
+            },
+            "Rugby": {
+                "Jerseys & Cleats": {},
+                "Protective Gear": {},
+                "Rugby Balls": {},
+                "Rugby Posts": {}
+            },
+            "Soccer": {
+                "Jerseys & Cleats": {},
+                "Protective Gear": {},
+                "Soccer Balls": {},
+                "Soccer Goals & Nets": {}
+            },
+            "Tennis & Racquet Sports": {
+                "Badminton": {
+                    "Badminton Nets": {},
+                    "Badminton Racquets": {},
+                    "Shuttlecocks": {}
+                },
+                "Racquetball & Squash": {
+                    "Racquetball & Squash Balls": {},
+                    "Racquetball & Squash Gloves": {},
+                    "Racquetball & Squash Goggles": {},
+                    "Racquetball & Squash Racquets": {}
+                },
+                "Tennis Balls": {},
+                "Tennis Racquets": {}
+            },
+            "Track & Field Equipment": {},
+            "Volleyball": {
+                "Protective Gear": {},
+                "Volleyball Nets & Poles": {},
+                "Volleyballs": {}
+            }
+        }
+    },
+    "Tools & Home Improvement": {
+        "Building Supplies & Hardware": {
+            "Cabinets & Cabinet Hardware": {
+                "Cabinet & Drawer Locks": {},
+                "Cabinet Hinges": {},
+                "Cabinet Knobs & Pulls": {},
+                "Cabinets": {},
+                "Drawer Slides": {}
+            },
+            "Chain, Wire & Rope": {
+                "Bungee Cords": {},
+                "Chains": {},
+                "Ropes": {},
+                "Tie Downs & Straps": {},
+                "Twine": {},
+                "Utility Wire": {}
+            },
+            "Consumables": {
+                "Bricks & Concrete Blocks": {},
+                "Cement, Mortar & Concrete Mixes": {},
+                "Drywall": {},
+                "Glass": {},
+                "Glue & Adhesives": {},
+                "Grout": {},
+                "Insulation": {},
+                "Lubricants": {},
+                "Paint & Varnish": {},
+                "Protective Coatings & Sealants": {},
+                "Rebar & Remesh": {},
+                "Solder & Flux": {},
+                "Solvents, Strippers & Thinners": {},
+                "Tape": {}
+            },
+            "Doors & Door Hardware": {
+                "Door Frames": {},
+                "Door Hinges": {},
+                "Door Knobs & Levers": {},
+                "Door Knockers": {},
+                "Door Locks & Lock Mechanisms": {},
+                "Door Stops": {},
+                "Doorbells": {},
+                "Doors": {},
+                "Latches & Bolts": {},
+                "Weather Stripping": {}
+            },
+            "Electrical & Solar Supplies": {
+                "Circuit Breakers & Fuse Boxes": {},
+                "Extension Cords": {},
+                "Generators": {},
+                "Solar Panels": {},
+                "Switch Plates & Outlet Covers": {},
+                "Switches & Outlets": {},
+                "Wall Socket Controls & Sensors": {}
+            },
+            "Flooring & Tiles": {
+                "Floor & Wall Tiles": {},
+                "Flooring Moldings & Trims": {},
+                "Flooring Underlayment": {},
+                "Laminate & Vinyl Flooring": {},
+                "Wood Flooring": {}
+            },
+            "Garage Doors & Openers": {
+                "Garage Door Remotes": {},
+                "Garage Doors": {},
+                "Opener Systems": {}
+            },
+            "Locks & Keys": {
+                "Key Blanks": {},
+                "Key Caps": {},
+                "Locks & Latches": {}
+            },
+            "Lumber & Composites": {
+                "Lumber": {},
+                "Wall Paneling": {},
+                "Wood Composite Panels & Sheets": {},
+                "Wood Veneer Sheets": {}
+            },
+            "Nails, Screws & Fasteners": {
+                "Braces & Brackets": {},
+                "Nails": {},
+                "Nuts & Bolts": {},
+                "Screws": {},
+                "Springs": {}
+            },
+            "Roofing Supplies": {
+                "Gutters": {},
+                "Roof Flashings": {},
+                "Shingles & Tiles": {}
+            },
+            "Windows & Window Hardware": {
+                "Window Frames": {},
+                "Window Hardware": {},
+                "Window Screens": {},
+                "Windows": {}
+            }
+        },
+        "Home Heating & Cooling": {
+            "Air Conditioners": {},
+            "Air Filters": {},
+            "Air Purifiers": {},
+            "Dehumidifiers": {},
+            "Fans": {},
+            "Fireplaces & Stoves": {
+                "Andirons, Grates & Firedogs": {},
+                "Fireplace Hearths": {},
+                "Fireplace Screens & Doors": {},
+                "Fireplaces": {},
+                "Fuel & Firewood": {},
+                "Heating Stoves": {},
+                "Pokers, Tools & Sets": {}
+            },
+            "Furnaces & Heating Systems": {},
+            "Humidifiers": {},
+            "Space Heaters": {},
+            "Thermostats": {},
+            "Water Heaters": {}
+        },
+        "Home Security & Automation": {
+            "Home Surveillance": {
+                "Doorbell Cameras": {},
+                "Intercoms": {},
+                "Security Cameras": {},
+                "Surveillance Systems": {}
+            },
+            "Security Alarms & Sensors": {
+                "Alarms": {},
+                "Motion Sensors": {},
+                "Security Systems": {},
+                "Smoke & Carbon Monoxide Detectors": {}
+            },
+            "Smart Home & Home Automation": {
+                "Home Automation Systems": {},
+                "Smart Lighting": {},
+                "Smart Switches & Outlets": {},
+                "Sprinklers": {},
+                "Thermostats": {},
+                "Voice Assistants": {}
+            }
+        },
+        "Plumbing & Fixtures": {
+            "Bathtubs": {},
+            "Drains": {},
+            "Faucets": {},
+            "Garbage Disposals": {},
+            "Pipes": {},
+            "Pumps": {},
+            "Shower Stalls": {},
+            "Sinks": {},
+            "Toilet Parts & Accessories": {},
+            "Toilets": {},
+            "Valves, Fittings & Clamps": {},
+            "Vanities": {}
+        },
+        "Tools": {
+            "Air Tools": {
+                "Air Compressors": {},
+                "Air Sanders": {},
+                "Cut-Off Tools": {},
+                "Drills": {},
+                "Grease & Sealant Guns": {},
+                "Grinders": {},
+                "Hammers": {},
+                "Nailers": {},
+                "Ratchets": {},
+                "Sandblasters": {},
+                "Wrenches": {}
+            },
+            "Hand Tools": {
+                "Chisels": {},
+                "Clamps & Vises": {},
+                "Cutters": {},
+                "Files": {},
+                "Garden Hand Tools & Equipment": {
+                    "Axes & Hatchets": {},
+                    "Forks": {},
+                    "Hoes & Cultivators": {},
+                    "Lawn Rollers": {},
+                    "Loppers": {},
+                    "Pruning Shears & Snips": {},
+                    "Rakes": {},
+                    "Saws": {},
+                    "Scythes & Sickles": {},
+                    "Shovels": {},
+                    "Trowels": {},
+                    "Wheelbarrows, Carts & Wagons": {}
+                },
+                "Hammers & Mallets": {},
+                "Knives & Blades": {},
+                "Mixed Hand Tool Sets": {},
+                "Multitools": {},
+                "Planes": {},
+                "Pliers": {},
+                "Punches": {},
+                "Saws": {},
+                "Screwdrivers": {},
+                "Taps & Dies": {},
+                "Trowels": {},
+                "Winches": {},
+                "Wrenches": {}
+            },
+            "Ladders & Scaffolding": {
+                "Ladder Carts": {},
+                "Ladders": {},
+                "Scaffolding": {},
+                "Step Stools": {},
+                "Work Platforms": {}
+            },
+            "Measuring Tools & Sensors": {
+                "Barometers": {},
+                "Calipers": {},
+                "Electrical Testing Tools": {},
+                "Flow Meters & Controllers": {},
+                "Gas Detectors": {},
+                "Gauges": {},
+                "Hygrometers": {},
+                "Levels": {},
+                "Multimeters": {},
+                "Probes & Finders": {},
+                "Protractors": {},
+                "Rulers & Squares": {},
+                "Stud Finders": {},
+                "Tape Measures": {},
+                "Thermocouples & Thermopiles": {},
+                "pH Meters": {}
+            },
+            "Painting Tools": {
+                "Caulk & Sealant": {},
+                "Caulking Guns": {},
+                "Drop Cloths": {},
+                "Paint Brushes": {},
+                "Paint Buckets": {},
+                "Paint Mixers": {},
+                "Paint Rollers": {},
+                "Paint Sprayers": {},
+                "Paint Trays": {},
+                "Painter's Tape": {}
+            },
+            "Power Tools": {
+                "Buffers & Polishers": {},
+                "Drills": {},
+                "Grinders": {},
+                "Heat Guns": {},
+                "Impact Drivers & Wrenches": {},
+                "Jacks & Stands": {},
+                "Jigs": {},
+                "Joiners": {},
+                "Lathes": {},
+                "Mixed Power Tool Sets": {},
+                "Nail & Staple Guns": {},
+                "Outdoor Power Equipment": {
+                    "Chainsaws": {},
+                    "Chippers, Shredders & Mulchers": {},
+                    "Edgers": {},
+                    "Grass Shears": {},
+                    "Hedge & Weed Trimmers": {},
+                    "Lawn Mowers": {},
+                    "Leaf Blowers & Vacuums": {},
+                    "Pressure Washers": {},
+                    "Snow Blowers": {},
+                    "Sweepers": {},
+                    "Tillers": {}
+                },
+                "Planers": {},
+                "Rotary Tools": {},
+                "Routers": {},
+                "Sanders": {},
+                "Saws & Blades": {},
+                "Screwdrivers": {},
+                "Sharpeners": {},
+                "Winches": {}
+            }
+        }
+    },
+    "Toys & Games": {
+        "Action Figures": {},
+        "Baby Toys": {
+            "Alphabet Toys": {},
+            "Baby Books": {},
+            "Baby Soothers": {},
+            "Bath Toys": {},
+            "Blocks, Sorting & Stacking Toys": {},
+            "Plush Toys": {},
+            "Push & Pull Toys": {},
+            "Rattles": {}
+        },
+        "Building Toys": {
+            "Building Blocks": {},
+            "Building Set Parts & Accessories": {},
+            "Building Sets": {},
+            "Marble Runs": {},
+            "Model Building Kits": {}
+        },
+        "Dolls & Doll Houses": {
+            "Doll Clothes & Fashion Accessories": {},
+            "Doll Furniture": {},
+            "Doll Houses": {},
+            "Doll Playsets": {},
+            "Dolls": {}
+        },
+        "Educational Toys": {},
+        "Electronic Toys": {
+            "Cameras": {},
+            "Electronic Games": {},
+            "Electronic Pets": {},
+            "Microphones": {},
+            "Toy Tablets": {}
+        },
+        "Games": {
+            "Board Games": {},
+            "Card Games": {},
+            "Chess": {},
+            "Dexterity Games": {},
+            "Dice Games": {},
+            "Game Timers": {},
+            "Miniature & War Games": {},
+            "Poker Chips & Accessories": {},
+            "Role Playing Games": {},
+            "Tile Games": {}
+        },
+        "Outdoor Toys": {
+            "Balls & Throwing Toys": {},
+            "Bubble Toys": {},
+            "Dart Guns": {},
+            "Hula Hoops": {},
+            "Inflatable Bouncers": {},
+            "Kites": {},
+            "Play Houses": {},
+            "Playgrounds": {},
+            "Pogo Sticks": {},
+            "Sandboxes": {},
+            "See Saws": {},
+            "Slides": {},
+            "Swings": {},
+            "Tents & Tunnels": {},
+            "Trampolines": {},
+            "Water Play Equipment": {
+                "Kiddie Pools": {},
+                "Play Sprinklers": {},
+                "Water Guns": {}
+            }
+        },
+        "Pretend Play Toys": {
+            "Puppets & Puppet Theaters": {},
+            "Toy Kitchens & Food": {},
+            "Toy Tool Sets": {}
+        },
+        "Puzzles": {
+            "Jigsaw Puzzles": {},
+            "Mechanical Puzzles": {},
+            "Wooden & Pegged Puzzles": {}
+        },
+        "Remote Control Toys": {},
+        "Riding Toys": {
+            "Balance Bikes": {},
+            "Hoverboards": {},
+            "Powered Riding Toys": {},
+            "Push & Pedal Riding Toys": {},
+            "Rockers & Hobby Horses": {},
+            "Scooters": {},
+            "Tricycles": {},
+            "Wagons": {}
+        },
+        "Stuffed Animals & Plush Toys": {},
+        "Toy Vehicles": {}
+    },
+    "Video Games & Consoles": {
+        "Video Game Accessories": {
+            "Batteries": {},
+            "Cables & Adapters": {},
+            "Cases, Covers & Bags": {},
+            "Chargers & Docks": {},
+            "Controllers & Attachments": {},
+            "Cooling Devices": {},
+            "Hard Drives": {},
+            "Headsets": {},
+            "Keyboards & Keypads": {},
+            "Memory Cards & Expansion Packs": {},
+            "Motion Sensors & Cameras": {},
+            "Screen Protectors": {},
+            "Styluses": {}
+        },
+        "Video Game Consoles": {},
+        "Video Games": {},
+        "Virtual Reality": {
+            "Controllers & Motion Sensors": {},
+            "Headsets": {}
+        }
+    }
+}

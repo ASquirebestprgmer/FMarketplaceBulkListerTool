@@ -6,33 +6,16 @@ import ollama
 # Facebook's Strict Variables
 ALLOWED_CONDITIONS = ["New", "Used - Like New", "Used - Good", "Used - Fair"]
 
-def load_categories(filepath="categories.txt"):
-    """
-    Reads the categories from a text file, one per line.
-    """
-    lines = []
-    cattree= {}
-    try:
-        with open(filepath, 'r', encoding='utf-8') as file:
-            lines = [line.strip() for line in file if line.strip()]
-    except FileNotFoundError:
-        print(f"{filepath} not found. Using minimal fallback.")
-        return ["Clothing, Shoes & Accessories > Clothing"]
 
 
-    for line in lines:
-        parts = line.split('//')
-        level = cattree
-        for i in range(len(parts)):
-            category = parts[i]
-            if category not in level:
-                 level[category] = {}
-            level = level[category] 
+def load_cached_tree(filepath="category_tree.json"):
+    with open(filepath, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-    #print(json.dumps(cattree, indent=4))
-    return cattree    
 
-def search_category_tree(tree, final, image_path):
+CATTREE = load_cached_tree()
+
+def search_category_tree(tree,final, image_path):
     """
     Recursively searches the category tree for a match to the guess.
     """
@@ -66,6 +49,7 @@ def search_category_tree(tree, final, image_path):
         print(f"Error: {e}")
         return final
 
+
 def generate_listing(image_path):
     """
     Sends the image to the local Qwen2.5-VL model via Ollama.
@@ -78,15 +62,14 @@ def generate_listing(image_path):
     Analyze the attached image. Identify the item, estimate value, and generate a listing.
     
     Constraints:
-    YOU SHOULD ONLY HAVE 5 OUTPUT FIELDS IN YOUR JSON RESPONSE: TITLE, PRICE, CONDITION, DESCRIPTION, CATEGORY_GUESS.
+    YOU SHOULD ONLY HAVE 4 OUTPUT FIELDS IN YOUR JSON RESPONSE: TITLE, PRICE, CONDITION, DESCRIPTION.
     1. TITLE: Max 150 characters. Try to Include brand. Avoid clickbait. Make it short maybe 3-5 words.
     2. PRICE: ALWAYS A WHOLE NUMBER NO TEXT Estimate fair market value. Try to make your estimate between 30-120$ MAX. If you think it's worth more than 120$ then just put 120$. If you think it's worth less than 30$ then just put 30$. Always include 'OBO' after the price.
     3. CONDITION: Must be EXACTLY: {', '.join(ALLOWED_CONDITIONS)}. 
     4. DESCRIPTION: Max 5000 chars. Include details, brand, model, flaws. 
        ALWAYS INCLUDE: 'The price you have listed' OBO ONLY IN THE DESCRIPTION and 'PICKUP PREFERRED WILL DELIVER AT FULL PRICE PLUS A FEE'.
-    5. CATEGORY_GUESS: Based on the image, make your best guess at the category.
         
-    Return ONLY a valid JSON object with keys: "TITLE", "PRICE", "CONDITION", "DESCRIPTION", "CATEGORY_GUESS".
+    Return ONLY a valid JSON object with keys: "TITLE", "PRICE", "CONDITION", "DESCRIPTION"
     """
 
     try:
@@ -107,18 +90,9 @@ def generate_listing(image_path):
 
         ai_output = json.loads(response['message']['content'])
         
-        guess_raw = ai_output.get("CATEGORY_GUESS", "General")
-
-        if isinstance(guess_raw, list):
-            guess_string = " ".join(guess_raw)
-            f"{guess_raw} {ai_output.get('TITLE','General')}"
-            print(f"Extracted keywords for category guess: {guess_string}")
-        else:
-            guess_string = str(guess_raw)
-
-        tree = load_categories("categories.txt")
+        
         final = []
-        final = search_category_tree(tree, final,image_path)
+        final = search_category_tree(CATTREE, final,image_path)
         print(f"Exact category found: {final}")
         final_category = "//".join(final) 
         
@@ -137,6 +111,8 @@ def generate_listing(image_path):
         print(f"Offline Error processing {filename}: {e}")
         raise
 
+
+
 def create_bulk_upload_file(processed_items, output_filename="Generated_Listings.xlsx"):
     columns = ['TITLE', 'PRICE', 'CONDITION', 'DESCRIPTION', 'CATEGORY']
     df = pd.DataFrame(processed_items, columns=columns)
@@ -146,9 +122,10 @@ def create_bulk_upload_file(processed_items, output_filename="Generated_Listings
         
     print(f"\nSaved {len(processed_items)} items to '{output_filename}'")
 
+
+
 def main():
 
-    
     image_folder = input("Please paste the full path to your photo folder: ").strip() # "G:\0-PHOTOS\149___04\stuff"
 
     if not os.path.exists(image_folder):
