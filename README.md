@@ -1,33 +1,23 @@
-# Facebook Marketplace Bulk Listing Excel Generator
+﻿# Facebook Marketplace and Poshmark Bulk Listing Generator
 
-This project generates an Excel file for bulk listing items on Facebook Marketplace by analyzing product images and producing listing metadata.
-
-## Author Notes 
-Facebook does not allow you to automatically post listings, they have alot of prevention against botting. 
-They do allow you to upload text through an xlsx file on the desktop version.
-
-I do realize that a lot of the descriptions will be inaccurate, However, this is just supposed to fix the main issue of getting a general amount of listings set up to be posted.
-A majority of the generation is actually pretty good it just needs to be adjusted before posting, which facebook helps you do. 
-You'll have to upload the images separately. This is mostly just for title and description.
-
-This project has a very small amount of use cases, However I thought I'd share it. 
-
-(April 2026):The categories needs more work, will be updating it so it is better at guessing the categories. 
-The pricing is not to be trusted. No model can accurately price out items without more information or ebay sold listing API. 
-
+This project generates bulk upload files for both Facebook Marketplace and Poshmark from local product photos.
+It analyzes each image with a local Ollama image-capable model, builds listing metadata, and saves the results in a spreadsheet or CSV.
 
 ## What it does
 
-- Reads item images from a local folder
-- Uses a local Ollama image-capable model (qwen2.5vl) to analyze each image
-- Generates listing fields: title, price, condition, description, and category
-- Matches the AI-generated category guess to a valid Facebook Marketplace category using fuzzy matching
-- Writes the final listings into Generated_Listings.xlsx
+- Prompts for a local image folder path
+- Sends each image to a local Ollama model (`qwen2.5vl`) for item analysis
+- Generates listing fields: TITLE, PRICE, CONDITION, DESCRIPTION, CATEGORY
+- Resolves the category using a cached Facebook category tree
+- Saves the results to a timestamped Excel file in `GeneratedSpreadsheets/`
 
 ## Files
 
-- excelGenerator.py - main script that processes images and writes Excel output
-- categories.txt - list of valid Facebook Marketplace categories used for fuzzy matching
+- `FacebookExcelGen.py` - main script for Facebook Marketplace bulk listings
+- `PoshmarkExcelGen.py` - alternate script for generating a Poshmark bulk upload CSV
+- `Cattrees/facebook_category_tree.json` - Facebook category tree used for category selection
+- `Cattrees/poshmark_category_tree.json` - Poshmark category tree used by the Poshmark script
+- `GeneratedSpreadsheets/` - output folder for generated Excel/CSV files
 
 ## Requirements
 
@@ -35,46 +25,55 @@ The pricing is not to be trusted. No model can accurately price out items withou
 - pandas
 - openpyxl
 - ollama
-- 	hefuzz
 
 Install dependencies with:
 
-`powershell
-python -m pip install pandas openpyxl ollama thefuzz
-`
+```powershell
+python -m pip install pandas openpyxl ollama
+```
 
 ## Setup
 
-1. Make sure a local Ollama server is running and can access the qwen2.5vl model.
-2. Place images to process in the folder configured in excelGenerator.py.
-   - By default the script uses:
-     G:\0-PHOTOS\149___04\stuff
-3. Update the image_folder variable in excelGenerator.py if you want a different source folder.
+1. Run a local Ollama server and make sure the `qwen2.5vl` model is available.
+2. Place the images you want to process in a local folder.
+3. Confirm the category tree files exist under `Cattrees/`.
 
 ## Usage
 
-Run the script from the project directory:
+From the project directory, choose one of the two scripts:
 
-`powershell
-python excelGenerator.py
-`
+```powershell
+python FacebookExcelGen.py
+```
 
-The script will:
+or
 
-1. Scan the configured image folder for .jpg, .png, and .jpeg files
-2. Send each image to Ollama for listing analysis
-3. Match the AI category guess to an exact Facebook category
-4. Save the results to Generated_Listings.xlsx
+```powershell
+python PoshmarkExcelGen.py
+```
+
+Then paste the full path to your image folder when prompted.
+
+### What happens next
+
+1. The script scans the folder for `.jpg`, `.png`, and `.jpeg` files.
+2. Each image is analyzed by the local Ollama model.
+3. It builds listing metadata and selects a matching Facebook category.
+4. The final bulk upload spreadsheet is saved to `GeneratedSpreadsheets/`.
+
+## Output
+
+- Facebook output files are saved as `GeneratedSpreadsheets\Facebook<date>.xlsx`
+- Poshmark output files are saved as `GeneratedSpreadsheets\Poshmark<date>.csv`
 
 ## Notes
 
-- If the categories.txt file is missing, the script falls back to a minimal default category.
-- The AI response is expected to include exactly these JSON fields: TITLE, PRICE, CONDITION, DESCRIPTION, CATEGORY_GUESS.
-- The script enforces Facebook Marketplace condition values: New, Used - Like New, Used - Good, Used - Fair.
-- The generated Excel file is saved in the same folder as the script.
+- Facebook does not allow auto-posting; this tool only creates the listing spreadsheet.
+- Images must still be uploaded manually when you create listings on Facebook.
+- The generated titles, prices, and descriptions should be reviewed before posting.
 
 ## Customization
 
-- Change image_folder in excelGenerator.py to point to your photo directory.
-- Add or update categories in categories.txt to improve matching accuracy.
-- Adjust the prompt or output fields in nalyze_and_generate_listing() if you need a different listing format.
+- Modify `FacebookExcelGen.py` to adjust prompt rules, allowed conditions, or output formatting.
+- Update `Cattrees/facebook_category_tree.json` to improve category matching.
+- Use `PoshmarkExcelGen.py` if you want a Poshmark-compatible CSV output instead of Facebook Excel.

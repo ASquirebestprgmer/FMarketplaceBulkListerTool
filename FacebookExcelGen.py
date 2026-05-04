@@ -2,13 +2,14 @@ import os
 import json
 import pandas as pd
 import ollama  
+import time
 
 # Facebook's Strict Variables
 ALLOWED_CONDITIONS = ["New", "Used - Like New", "Used - Good", "Used - Fair"]
 
 
 
-def load_cached_tree(filepath="category_tree.json"):
+def load_cached_tree(filepath="Cattrees\\facebook_category_tree.json"):
     with open(filepath, "r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -113,10 +114,11 @@ def generate_listing(image_path):
 
 
 
-def create_bulk_upload_file(processed_items, output_filename="Generated_Listings.xlsx"):
+def create_bulk_upload_file(processed_items):
     columns = ['TITLE', 'PRICE', 'CONDITION', 'DESCRIPTION', 'CATEGORY']
     df = pd.DataFrame(processed_items, columns=columns)
-    
+    output_filename = time.strftime("GeneratedSpreadsheets\\Facebook%Y%B%d-%HX%MX%S.xlsx")
+
     with pd.ExcelWriter(output_filename, engine='openpyxl') as writer:
         df.to_excel(writer, index=False, sheet_name="Template")
         
@@ -127,6 +129,9 @@ def create_bulk_upload_file(processed_items, output_filename="Generated_Listings
 def main():
 
     image_folder = input("Please paste the full path to your photo folder: ").strip() # "G:\0-PHOTOS\149___04\stuff"
+    
+    if image_folder.endswith('"') and image_folder.startswith('"'):
+        image_folder = image_folder[1:-1]
 
     if not os.path.exists(image_folder):
         print(f"The folder '{image_folder}' does not exist.")

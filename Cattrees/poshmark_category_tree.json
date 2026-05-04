@@ -1,0 +1,795 @@
+{
+    "Women": {
+        "Dresses": {
+            "Asymmetrical": {},
+            "Backless": {},
+            "High Low": {},
+            "Long Sleeve": {},
+            "Maxi": {},
+            "Midi": {},
+            "Mini": {},
+            "One Shoulder": {},
+            "Prom": {},
+            "Strapless": {},
+            "Wedding": {}
+        },
+        "Skirts": {
+            "A-Line or Full": {},
+            "Asymmetrical": {},
+            "Circle & Skater": {},
+            "High Low": {},
+            "Maxi": {},
+            "Midi": {},
+            "Mini": {},
+            "Pencil": {},
+            "Skirt Sets": {}
+        },
+        "Jackets & Coats": {
+            "Blazers & Suit Jackets": {},
+            "Bomber Jackets": {},
+            "Capes": {},
+            "Jean Jackets": {},
+            "Leather Jackets": {},
+            "Pea Coats": {},
+            "Puffers": {},
+            "Ski & Snow Jackets": {},
+            "Teddy Jackets": {},
+            "Trench Coats": {},
+            "Utility Jackets": {},
+            "Varsity Jackets": {},
+            "Vests": {}
+        },
+        "Sweaters": {
+            "Cardigans": {},
+            "Cowl & Turtlenecks": {},
+            "Crew & Scoop Necks": {},
+            "Off-the-Shoulder Sweaters": {},
+            "Shrugs & Ponchos": {},
+            "V-Necks": {}
+        },
+        "Tops": {
+            "Blouses": {},
+            "Bodysuits": {},
+            "Button Down Shirts": {},
+            "Camisoles": {},
+            "Crop Tops": {},
+            "Jerseys": {},
+            "Muscle Tees": {},
+            "Sweatshirts & Hoodies": {},
+            "Tank Tops": {},
+            "Tees - Long Sleeve": {},
+            "Tees - Short Sleeve": {},
+            "Tunics": {}
+        },
+        "Jeans": {
+            "Ankle & Cropped": {},
+            "Boot Cut": {},
+            "Boyfriend": {},
+            "Flare & Wide Leg": {},
+            "High Rise": {},
+            "Jeggings": {},
+            "Overalls": {},
+            "Skinny": {},
+            "Straight Leg": {}
+        },
+        "Pants & Jumpsuits": {
+            "Ankle & Cropped": {},
+            "Boot Cut & Flare": {},
+            "Capris": {},
+            "Jumpsuits & Rompers": {},
+            "Leggings": {},
+            "Pantsuits": {},
+            "Skinny": {},
+            "Straight Leg": {},
+            "Track Pants & Joggers": {},
+            "Trousers": {},
+            "Wide Leg": {}
+        },
+        "Shorts": {
+            "Athletic Shorts": {},
+            "Bermudas": {},
+            "Bike Shorts": {},
+            "Cargos": {},
+            "High Waist": {},
+            "Jean Shorts": {},
+            "Skorts": {}
+        },
+        "Intimates & Sleepwear": {
+            "Bandeaus": {},
+            "Bras": {},
+            "Chemises & Slips": {},
+            "Pajamas": {},
+            "Panties": {},
+            "Robes": {},
+            "Shapewear": {},
+            "Sports Bras": {}
+        },
+        "Swim": {
+            "Bikinis": {},
+            "Coverups": {},
+            "One Pieces": {},
+            "Sarongs": {}
+        },
+        "Bags": {
+            "Baby Bags": {},
+            "Backpacks": {},
+            "Clutches & Wristlets": {},
+            "Cosmetic Bags & Cases": {},
+            "Crossbody Bags": {},
+            "Hobos": {},
+            "Laptop Bags": {},
+            "Mini Bags": {},
+            "Satchels": {},
+            "Shoulder Bags": {},
+            "Totes": {},
+            "Travel Bags": {},
+            "Wallets": {}
+        },
+        "Shoes": {
+            "Ankle Boots & Booties": {},
+            "Athletic Shoes": {},
+            "Combat & Moto Boots": {},
+            "Espadrilles": {},
+            "Flats & Loafers": {},
+            "Heeled Boots": {},
+            "Heels": {},
+            "Lace Up Boots": {},
+            "Moccasins": {},
+            "Mules & Clogs": {},
+            "Over the Knee Boots": {},
+            "Platforms": {},
+            "Sandals": {},
+            "Slippers": {},
+            "Sneakers": {},
+            "Wedges": {},
+            "Winter & Rain Boots": {}
+        },
+        "Jewelry": {
+            "Bracelets": {},
+            "Brooches": {},
+            "Earrings": {},
+            "Necklaces": {},
+            "Rings": {}
+        },
+        "Accessories": {
+            "Belts": {},
+            "Face Masks": {},
+            "Glasses": {},
+            "Gloves & Mittens": {},
+            "Hair Accessories": {},
+            "Hats": {},
+            "Hosiery & Socks": {},
+            "Key & Card Holders": {},
+            "Laptop Cases": {},
+            "Phone Cases": {},
+            "Scarves & Wraps": {},
+            "Sunglasses": {},
+            "Tablet Cases": {},
+            "Umbrellas": {},
+            "Watches": {}
+        },
+        "Makeup": {
+            "Blush": {},
+            "Bronzer & Contour": {},
+            "Brows": {},
+            "Brushes & Tools": {},
+            "Concealer": {},
+            "Eye Primer": {},
+            "Eyeliner": {},
+            "Eyeshadow": {},
+            "Foundation": {},
+            "Highlighter": {},
+            "Lashes": {},
+            "Lip Balm & Gloss": {},
+            "Lip Liner": {},
+            "Lipstick": {},
+            "Mascara": {},
+            "Nail Tools": {},
+            "Press-On Nails": {},
+            "Primer": {},
+            "Setting Powder & Spray": {}
+        },
+        "Skincare": {
+            "Acne & Blemish": {},
+            "Cleanser & Exfoliant": {},
+            "Eye Cream": {},
+            "Makeup Remover": {},
+            "Mask": {},
+            "Moisturizer": {},
+            "Peel": {},
+            "Serum & Face Oil": {},
+            "Suncare": {},
+            "Toner": {},
+            "Tools": {}
+        },
+        "Hair": {
+            "Color": {},
+            "Conditioner": {},
+            "Hairspray": {},
+            "Heat Protectant": {},
+            "Shampoo": {},
+            "Styling": {},
+            "Tools": {},
+            "Treatment & Mask": {},
+            "Wigs & Extensions": {}
+        },
+        "Bath & Body": {
+            "Bath Soak & Bubbles": {},
+            "Body Wash": {},
+            "Exfoliant & Scrub": {},
+            "Hair Removal": {},
+            "Hand & Foot Care": {},
+            "Hand Soap": {},
+            "Moisturizer & Body Oil": {},
+            "Suncare & Tanning": {},
+            "Tools": {}
+        }
+    },
+    "Men": {
+        "Accessories": {
+            "Belts": {},
+            "Cuff Links": {},
+            "Face Masks": {},
+            "Glasses": {},
+            "Gloves": {},
+            "Hats": {},
+            "Jewelry": {},
+            "Key & Card Holders": {},
+            "Money Clips": {},
+            "Phone Cases": {},
+            "Pocket Squares": {},
+            "Scarves": {},
+            "Sunglasses": {},
+            "Suspenders": {},
+            "Ties": {},
+            "Watches": {}
+        },
+        "Bags": {
+            "Backpacks": {},
+            "Belt Bags": {},
+            "Briefcases": {},
+            "Duffel Bags": {},
+            "Laptop Bags": {},
+            "Luggage & Travel Bags": {},
+            "Messenger Bags": {},
+            "Toiletry Bags": {},
+            "Wallets": {}
+        },
+        "Jackets & Coats": {
+            "Bomber & Varsity": {},
+            "Lightweight & Shirt Jackets": {},
+            "Military & Field": {},
+            "Pea Coats": {},
+            "Performance Jackets": {},
+            "Puffers": {},
+            "Raincoats": {},
+            "Ski & Snowboard": {},
+            "Trench Coats": {},
+            "Vests": {},
+            "Windbreakers": {}
+        },
+        "Jeans": {
+            "Bootcut": {},
+            "Relaxed": {},
+            "Skinny": {},
+            "Slim": {},
+            "Slim Straight": {},
+            "Straight": {}
+        },
+        "Pants": {
+            "Cargo": {},
+            "Chinos & Khakis": {},
+            "Corduroy": {},
+            "Dress": {},
+            "Sweatpants & Joggers": {}
+        },
+        "Shirts": {
+            "Casual Button Down Shirts": {},
+            "Dress Shirts": {},
+            "Jerseys": {},
+            "Polos": {},
+            "Sweatshirts & Hoodies": {},
+            "Tank Tops": {},
+            "Tees - Long Sleeve": {},
+            "Tees - Short Sleeve": {}
+        },
+        "Shoes": {
+            "Athletic Shoes": {},
+            "Boat Shoes": {},
+            "Boots": {},
+            "Chukka Boots": {},
+            "Cowboy & Western Boots": {},
+            "Loafers & Slip-Ons": {},
+            "Oxfords & Derbys": {},
+            "Rain & Snow Boots": {},
+            "Sandals & Flip-Flops": {},
+            "Sneakers": {}
+        },
+        "Shorts": {
+            "Athletic": {},
+            "Cargo": {},
+            "Flat Front": {},
+            "Hybrids": {},
+            "Jean Shorts": {}
+        },
+        "Suits & Blazers": {
+            "Sport Coats & Blazers": {},
+            "Suits": {},
+            "Tuxedos": {},
+            "Vests": {}
+        },
+        "Sweaters": {
+            "Cardigan": {},
+            "Crewneck": {},
+            "Turtleneck": {},
+            "V-Neck": {},
+            "Zip Up": {}
+        },
+        "Swim": {
+            "Board Shorts": {},
+            "Hybrids": {},
+            "Rash Guards": {},
+            "Swim Trunks": {}
+        },
+        "Underwear & Socks": {
+            "Athletic Socks": {},
+            "Boxer Briefs": {},
+            "Boxers": {},
+            "Briefs": {},
+            "Casual Socks": {},
+            "Dress Socks": {},
+            "Undershirts": {}
+        },
+        "Grooming": {
+            "Cleanser": {},
+            "Grooming Tools": {},
+            "Hair Care": {},
+            "Moisturizer": {},
+            "Shaving": {},
+            "Suncare": {},
+            "Treatments": {}
+        }
+    },
+    "Kids": {
+        "Accessories": {
+            "Bags": {},
+            "Belts": {},
+            "Bibs": {},
+            "Diaper Covers": {},
+            "Face Masks": {},
+            "Hair Accessories": {},
+            "Hats": {},
+            "Jewelry": {},
+            "Mittens": {},
+            "Socks & Tights": {},
+            "Sunglasses": {},
+            "Suspenders": {},
+            "Ties": {},
+            "Underwear": {},
+            "Watches": {}
+        },
+        "Bottoms": {
+            "Casual": {},
+            "Formal": {},
+            "Jeans": {},
+            "Jumpsuits & Rompers": {},
+            "Leggings": {},
+            "Overalls": {},
+            "Shorts": {},
+            "Skirts": {},
+            "Skorts": {},
+            "Sweatpants & Joggers": {}
+        },
+        "Dresses": {
+            "Casual": {},
+            "Formal": {}
+        },
+        "Jackets & Coats": {
+            "Blazers": {},
+            "Capes": {},
+            "Jean Jackets": {},
+            "Pea Coats": {},
+            "Puffers": {},
+            "Raincoats": {},
+            "Vests": {}
+        },
+        "One Pieces": {
+            "Bodysuits": {},
+            "Footies": {}
+        },
+        "Pajamas": {
+            "Nightgowns": {},
+            "Pajama Bottoms": {},
+            "Pajama Sets": {},
+            "Pajama Tops": {},
+            "Robes": {},
+            "Sleep Sacks": {}
+        },
+        "Shirts & Tops": {
+            "Blouses": {},
+            "Button Down Shirts": {},
+            "Camisoles": {},
+            "Jerseys": {},
+            "Polos": {},
+            "Sweaters": {},
+            "Sweatshirts & Hoodies": {},
+            "Tank Tops": {},
+            "Tees - Long Sleeve": {},
+            "Tees - Short Sleeve": {}
+        },
+        "Shoes": {
+            "Baby & Walker": {},
+            "Boots": {},
+            "Dress Shoes": {},
+            "Moccasins": {},
+            "Rain & Snow Boots": {},
+            "Sandals & Flip Flops": {},
+            "Slippers": {},
+            "Sneakers": {},
+            "Water Shoes": {}
+        },
+        "Swim": {
+            "Bikinis": {},
+            "Coverups": {},
+            "One Piece": {},
+            "Rashguards": {},
+            "Swim Trunks": {}
+        },
+        "Costumes": {
+            "Dance": {},
+            "Halloween": {},
+            "Seasonal": {},
+            "Superhero": {},
+            "Theater": {}
+        },
+        "Bath, Skin & Hair": {
+            "Bath & Body": {},
+            "Hair Care": {},
+            "Moisturizer": {},
+            "Suncare": {},
+            "Tools": {}
+        },
+        "Toys": {
+            "Action Figures & Playsets": {},
+            "Building Sets & Blocks": {},
+            "Cars & Vehicles": {},
+            "Dolls & Accessories": {},
+            "Learning Toys": {},
+            "Puzzles & Games": {},
+            "Stuffed Animals": {},
+            "Trading Cards": {}
+        }
+    },
+    "Home": {
+        "Accents": {
+            "Accent Pillows": {},
+            "Baskets & Bins": {},
+            "Candles & Holders": {},
+            "Coffee Table Books": {},
+            "Curtains & Drapes": {},
+            "Decor": {},
+            "Door Mats": {},
+            "Faux Florals": {},
+            "Furniture Covers": {},
+            "Lanterns": {},
+            "Picture Frames": {},
+            "Vases": {}
+        },
+        "Art": {
+            "Ceramics": {},
+            "Drawing & Illustrations": {},
+            "Fiber Arts": {},
+            "Glass Art": {},
+            "Mixed Media": {},
+            "Painting": {},
+            "Photography": {},
+            "Posters": {},
+            "Prints": {},
+            "Sculpture": {}
+        },
+        "Bath": {
+            "Bath Accessories": {},
+            "Bath Storage": {},
+            "Bath Towels": {},
+            "Beach Towels": {},
+            "Hand Towels": {},
+            "Mats": {},
+            "Shower Curtains": {},
+            "Vanity Mirrors": {},
+            "Vanity Trays": {},
+            "Wash Cloths": {}
+        },
+        "Bedding": {
+            "Blankets & Throws": {},
+            "Comforters": {},
+            "Duvet Covers": {},
+            "Mattress Covers": {},
+            "Pillows": {},
+            "Quilts": {},
+            "Sheets": {}
+        },
+        "Design": {
+            "Birthday Cards": {},
+            "Business Cards": {},
+            "Planners": {},
+            "Stamps": {},
+            "Stickers": {},
+            "Thank You Cards": {}
+        },
+        "Dining": {
+            "Bar Accessories": {},
+            "Dinnerware": {},
+            "Drinkware": {},
+            "Flatware": {},
+            "Mugs": {},
+            "Serveware": {},
+            "Serving Utensils": {},
+            "Table Linens": {},
+            "Water Bottles & Thermoses": {}
+        },
+        "Games": {
+            "Board Games": {},
+            "Card Games": {},
+            "Outdoor Games": {},
+            "Puzzles": {}
+        },
+        "Holiday": {
+            "Garland": {},
+            "Holiday Blankets & Throws": {},
+            "Holiday Decor": {},
+            "Holiday Pillows": {},
+            "Ornaments": {},
+            "String Lights": {},
+            "Wreaths": {}
+        },
+        "Kitchen": {
+            "BBQ & Grilling Tools": {},
+            "Bakeware": {},
+            "Coffee & Tea Accessories": {},
+            "Cookbooks": {},
+            "Cooking Utensils": {},
+            "Cookware": {},
+            "Food Storage": {},
+            "Kitchen Linens": {},
+            "Kitchen Tools": {},
+            "Knives & Cutlery": {}
+        },
+        "Office": {
+            "Arts & Crafts": {},
+            "Binders & Folders": {},
+            "Calendars": {},
+            "Labels & Label Makers": {},
+            "Notebooks & Journals": {},
+            "Pencil Cases": {},
+            "Planners": {},
+            "Shipping Supplies": {},
+            "Stationery": {}
+        },
+        "Party Supplies": {
+            "Cake Candles": {},
+            "Cake Toppers": {},
+            "Cards & Invitations": {},
+            "Decorations": {},
+            "Disposable Tableware": {},
+            "Favors": {},
+            "Gift Wrap": {},
+            "Hats": {},
+            "Party Lights": {}
+        },
+        "Storage & Organization": {
+            "Closet Accessories": {},
+            "Drawer Liners": {},
+            "Garment Bags": {},
+            "Jewelry Organizers": {},
+            "Makeup Organizers": {},
+            "Storage": {}
+        },
+        "Wall Decor": {
+            "Art & Decals": {},
+            "Clocks": {},
+            "Display Shelves": {},
+            "Hooks": {},
+            "Mirrors": {},
+            "Tapestries": {},
+            "Wallpaper": {}
+        }
+    },
+    "Pets": {
+        "Dog": {
+            "Bedding & Blankets": {},
+            "Bowls & Feeders": {},
+            "Carriers & Travel": {},
+            "Clothing & Accessories": {},
+            "Collars, Leashes & Harnesses": {},
+            "Grooming": {},
+            "Housebreaking": {},
+            "Toys": {}
+        },
+        "Cat": {
+            "Beds": {},
+            "Bowls & Feeders": {},
+            "Carriers & Travel": {},
+            "Clothing & Accessories": {},
+            "Collars, Leashes & Harnesses": {},
+            "Grooming": {},
+            "Scratchers": {},
+            "Toys": {}
+        },
+        "Bird": {
+            "Cages & Covers": {},
+            "Feeders & Waterers": {},
+            "Perches & Swings": {},
+            "Toys": {}
+        },
+        "Fish": {
+            "Aquarium Kits": {},
+            "Cleaning & Maintenance": {},
+            "Decor & Accessories": {}
+        },
+        "Reptile": {
+            "Cleaning & Maintenance": {},
+            "Habitats": {},
+            "Habitat Accessories": {},
+            "Heating & Lights": {}
+        },
+        "Small Pets": {
+            "Bedding": {},
+            "Bowls & Feeders": {},
+            "Cages & Habitats": {},
+            "Carriers": {},
+            "Grooming": {},
+            "Habitat Accessories": {},
+            "Toys": {}
+        }
+    },
+    "Electronics": {
+        "Cameras, Photo & Video": {
+            "Digital Cameras": {},
+            "Bags & Cases": {},
+            "Binoculars & Scopes": {},
+            "Film Photography": {},
+            "Flashes": {},
+            "Lenses": {},
+            "Memory Cards": {},
+            "Simulated Cameras": {},
+            "Tripods & Monopods": {},
+            "Underwater Photography": {},
+            "Video": {},
+            "Camera Straps": {}
+        },
+        "Computers, Laptops & Parts": {
+            "Laptops": {},
+            "Cables & Interconnects": {},
+            "Camera Privacy Covers": {},
+            "Computer Cable Adapters": {},
+            "Computer Headsets": {},
+            "Computer Microphones": {},
+            "External Components": {},
+            "Graphics Cards": {},
+            "Internal Components": {},
+            "Keyboards": {},
+            "Memory Card Readers": {},
+            "Mice": {},
+            "Mounts & Stands": {},
+            "Surge Protectors": {},
+            "Single Board Computers": {},
+            "USB Hubs": {},
+            "Webcams": {}
+        },
+        "Cell Phones & Accessories": {
+            "Cell Phones": {},
+            "Holsters & Clips": {},
+            "Headsets": {},
+            "Screen Protectors": {},
+            "Cases": {},
+            "Covers": {},
+            "Skins & Bumpers": {},
+            "Chargers": {},
+            "Adapters": {},
+            "Cables": {}
+        },
+        "Car Audio, Video & GPS": {
+            "GPS & Navigation": {},
+            "Amplifiers": {},
+            "Car Stereo Receivers": {},
+            "Changers": {},
+            "Digital Media Receivers": {},
+            "Equalizers": {},
+            "Satellite Radio": {},
+            "Car Headphones": {},
+            "In-Mirror Video": {},
+            "In-Visor Video": {},
+            "On-Dash Cameras": {},
+            "Overhead Video": {},
+            "Surround Processors": {},
+            "TV Tuners": {},
+            "Vehicle Backup Cameras": {}
+        },
+        "Wearables": {
+            "Smartwatches": {},
+            "Body Mounted Cameras": {},
+            "Clips, Arm & Wristbands": {},
+            "Glasses": {},
+            "Rings": {},
+            "Smartwatch Cases": {},
+            "Wearables Chargers": {}
+        },
+        "Tablets & Accessories": {
+            "Tablets": {},
+            "eBook Readers": {},
+            "Cases": {},
+            "Chargers": {},
+            "Covers": {},
+            "Power Adapters": {},
+            "Power Cables": {},
+            "Reading Lights": {},
+            "Screen Protectors": {},
+            "Skins": {},
+            "Sleeves": {},
+            "Stands": {},
+            "Tablet Keyboards": {}
+        },
+        "Video Games & Consoles": {
+            "Consoles": {},
+            "Handheld Consoles": {},
+            "Batteries & Chargers": {},
+            "Cables": {},
+            "Controllers": {},
+            "Headsets": {},
+            "Gaming Guides": {},
+            "Keyboards": {},
+            "Digital Games": {},
+            "PC Games": {},
+            "Video Games": {}
+        },
+        "VR, AR & Accessories": {
+            "PC & Console VR Headsets": {},
+            "Smartphone VR Headsets": {},
+            "Standalone VR Headsets": {},
+            "Cases, Covers & Skins": {},
+            "Controllers & Sensors": {},
+            "Parts": {}
+        },
+        "Media": {
+            "Blank Media": {},
+            "CDs": {},
+            "DVDs & Blu-ray Discs": {},
+            "Media Streamers": {},
+            "Media Cases & Organization": {},
+            "Vinyl Records": {}
+        },
+        "Networking": {
+            "Boosters & Antennas": {},
+            "Mobile Broadband Devices": {},
+            "Modems": {},
+            "Modem-Router Combos": {},
+            "Powerline Networking": {},
+            "USB Bluetooth Adapters": {},
+            "USB Wi-Fi Adapters": {},
+            "VoIP Home Phones": {},
+            "VoIP Phone Adapters": {},
+            "Wired Routers": {},
+            "Wireless Access Points": {},
+            "Wireless Routers": {}
+        },
+        "Headphones": {
+            "Earbud Headphones": {},
+            "On-Ear Headphones": {},
+            "Over-Ear Headphones": {}
+        },
+        "Portable Audio & Video": {
+            "Boomboxes": {},
+            "CB & Two-Way Radios": {},
+            "Cassette Players": {},
+            "Digital Voice Recorders": {},
+            "MP3 & MP4 Players": {},
+            "Microcassette Recorders": {},
+            "Minidisc Players": {},
+            "Portable & Handheld TVs": {},
+            "Portable CD Players": {},
+            "Portable DVD Players": {},
+            "Portable Speakers": {},
+            "Radios": {}
+        }
+    }
+}
