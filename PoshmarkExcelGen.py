@@ -67,28 +67,30 @@ def generate_poshmark_listing(image_path):
         # Map to Poshmark Template Headers
         return {
             "SKU": ''.join(random.choices(string.ascii_uppercase + string.digits, k=10)),
-            "ProductID":'',
+            "ProductID (GTIN)": "",
             "Title": ai_output.get("TITLE"),
-            "Description ": ai_output.get("DESCRIPTION"),
+            "Description": ai_output.get("DESCRIPTION"),
             "Department":  cat_path[0] if len(cat_path) > 0 else "",
             "Category": cat_path[1] if len(cat_path) > 1 else "",
             "Sub-category": cat_path[2] if len(cat_path) > 2 else "",
-            "Quantity ": 1,
+            "Quantity": 1,
             "Size": ai_output.get("SIZE"),
             "Condition": ai_output.get("CONDITION"),
             "Brand": ai_output.get("BRAND"),
             "Color1": "",
             "Color2": "",
-            "VariantGroupID": "",
-            "VariantType": "",
-            "VariantAttribute": "",
-            "StyleTag1": "",
-            "StyleTag2": "",
-            "StyleTag3": "",
-            "Orig price ": 0,
+            "VariantGroup": "",
+            "IDVariantType": "",
+            "VariantAttributeStyle": "",
+            "Tag1Style": "",
+            "Tag2Style": "",
+            "Tag3": "",
+            "Orig price": 0,
             "Listing price": ai_output.get("LISTING_PRICE"),
             "Shipping Discount": "",
-            "Availability": "For Sale"
+            "Price Floor Percent": "",
+            "Minimum Price": "",
+            "Availability": "Draft" # Set to Draft so you can easily add photos later
         }
     except Exception as e:
         print(f"Error processing {filename}: {e}")
@@ -100,28 +102,38 @@ def generate_poshmark_listing(image_path):
 
 def create_poshmark_csv(processed_items):
     
-    
     output_filename = time.strftime("GeneratedSpreadsheets\\Poshmark%Y%B%d-%HX%MX%S.csv")
+    
+    # The exact 46 columns required by the Poshmark template
     columns = [
-        'SKU', 'ProductID (GTIN)', 'Title', 'Description ', 'Department', 
-        'Category', 'Sub-category', 'Quantity ', 'Size', 'Condition', 
-        'Brand', 'Color1', 'Color2', 'VariantGroupID', 'VariantType', 
-        'VariantAttribute', 'Style Tag1', 'Style Tag2', 'Style Tag3', 
-        'Orig price ', 'Listing price', 'Shipping Discount', 'Price Floor Percent', 
-        'Minimum Price', 'Availability', 'Drop time', 'Other info'
+        "SKU", "ProductID (GTIN)", "Title", "Description", "Department", 
+        "Category", "Sub-category", "Quantity", "Size", "Condition", 
+        "Brand", "Color1", "Color2", "VariantGroup", "IDVariantType", 
+        "VariantAttributeStyle", "Tag1Style", "Tag2Style", "Tag3", 
+        "Orig price", "Listing price", "Shipping Discount", "Price Floor Percent", 
+        "Minimum Price", "Availability", "Drop time", "Other info", 
+        "Copy Listing?", "Update Existing SKU?", "NEW SKU", "Primary image", 
+        "Alt image 1", "Alt image 2", "Alt image 3", "Alt image 4", 
+        "Alt image 5", "Alt image 6", "Alt image 7", "Alt image 8", 
+        "Alt image 9", "Alt image 10", "Alt image 11", "Alt image 12", 
+        "Alt image 13", "Alt image 14", "Alt image 15"
     ]
+    
+    # THE FIX: Insert an empty dictionary at the very beginning of the list.
+    # This guarantees Row 2 of your CSV is entirely blank.
+    processed_items.insert(0, {col: "" for col in columns})
     
     # Convert list of dicts to DataFrame
     df = pd.DataFrame(processed_items)
     
-    # Reindex to ensure all Poshmark columns exist, even if empty
+    # Reindex to ensure all Poshmark columns exist in the correct order
     df = df.reindex(columns=columns)
     
     # Export to CSV
-    # quoting=csv.QUOTE_ALL ensures descriptions with commas don't shift columns
     df.to_csv(output_filename, index=False, quoting=csv.QUOTE_ALL, encoding='utf-8')
     
-    print(f"\nSaved {len(processed_items)} items to '{output_filename}'")
+    # Subtract 1 from the length so it doesn't count the blank row as a processed item
+    print(f"\nSaved {len(processed_items) - 1} items to '{output_filename}'")
 
 
 

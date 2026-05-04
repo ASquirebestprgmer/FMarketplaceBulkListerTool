@@ -84,8 +84,8 @@ def generate_listing(image_path):
             }],
             format='json',
             options={
-                "num_ctx": 8192,  # Prevents the "truncating input" error from your logs
-                "temperature": 0.2 # Keeps the AI focused on the facts
+                "num_ctx": 8192,  
+                "temperature": 0.2 
             }
         )
 
